@@ -1,5 +1,6 @@
 import Container from "../global/Container"
 import { Separator } from "../ui/separator"
+import DarkMode from "./DarkMode"
 import Logo from "./Logo"
 import NavSearch from "./NavSearch"
 import SocialLinks from "./SocialLinks"
@@ -8,13 +9,16 @@ import SocialLinks from "./SocialLinks"
 function NavBar() {
     return (
         <nav>
-            <Container className="flex flex-col sm:flex-row sm:justify-between sm:items-center flex-wrap py-8 gap-4">
-                <div className="flex flex-col sm:flex-row justify-between sm:items-center flex-wrap  ">
+            <Container >
+                <div className="flex flex-col sm:flex-row flex-wrap justify-between sm:items-center py-8">
                     <Logo />
-                    <SocialLinks />
+                    <div className="flex flex-col sm:flex-row gap-4 ">
+                        <DarkMode />
+                        <SocialLinks />
+                    </div>
                 </div>
                 <Separator />
-                <div>
+                <div className="flex flex-col sm:flex-row flex-wrap justify-between sm:items-center py-8">
                     <NavSearch />
                 </div>
             </Container>

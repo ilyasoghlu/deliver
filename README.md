@@ -42,7 +42,7 @@ bun dev
     - Install necessary components 
         - npx shadcn@latest add button breadcrumb card checkbox dropdown-menu input label popover select separator table textarea carousel skeleton
 
-### create component folder and files 
+### Create component folder and files 
     - cart
     - form
     - global
@@ -64,6 +64,18 @@ bun dev
                 - Links
                 - NavSearch 
         - NavSearch
+    - footer
+        - Footer
+            - imports:
+                - Container 
+                - Logo
+                - SocialLinks
+                - ContactInfo
+                - QuickLinks
+                - NewsLetter
+                - CopyRight
     - products
     - single-product or product-detail
+
+
 
