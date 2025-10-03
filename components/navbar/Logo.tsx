@@ -1,8 +1,14 @@
-import React from 'react'
+import Link from "next/link"
+import { Button } from "../ui/button"
+
 
 function Logo() {
   return (
-    <div>Logo</div>
+    <Button asChild>
+      <Link href='/' >
+        <img src='' alt="logo"/>
+      </Link>
+    </Button>
   )
 }
 

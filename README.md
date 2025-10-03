@@ -23,6 +23,11 @@ bun dev
         - remove all default code 
         - rename page to Home or HomePage 
 
+## Installed Libraries 
+    - npx shadcn@latest init
+        - npx shadcn@latest add button breadcrumb card checkbox dropdown-menu input label popover select separator table textarea carousel skeleton
+    - npm install react-icons
+
 ## Create Pages 
 - in the app folder create page folders, and page files 
     - Home
@@ -41,6 +46,7 @@ bun dev
         - npx shadcn@latest init
     - Install necessary components 
         - npx shadcn@latest add button breadcrumb card checkbox dropdown-menu input label popover select separator table textarea carousel skeleton
+    
 
 ### Create component folder and files 
     - cart
@@ -49,8 +55,13 @@ bun dev
         - Container
             - gets 2 props: 
                 - children - takes ReactNode as type,
-                - className - this is an optional props  
+                - className - this is an optional props 
+        - SectionTitle
+        - EmptyList
     - home 
+        - ServiceContainer 
+        - ProductContainer
+        - ServiceCard
     - navbar
         - DarkMode
         - SocialLinks
@@ -59,9 +70,16 @@ bun dev
             - imports:
                 - Container
                 - Logo
+                    - imports:
+                        - Button from ui/button 
+                        - Link from next/link
+
+
                 - SocialLinks
                 - Separator
                 - Links
+                    - create utils/links 
+                    - 
                 - NavSearch 
         - NavSearch
     - footer

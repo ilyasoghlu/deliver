@@ -1,10 +1,11 @@
-import NavBar from '@/components/navbar/NavBar'
-import React from 'react'
+import SectionTitle from "@/components/global/SectionTitle"
+
+
 
 function HomePage() {
   return (
-    <div>
-      Home Page
+    <div className="flex flex-col items-center ">
+      <SectionTitle text='thi is home page' />
     </div>
   )
 }
