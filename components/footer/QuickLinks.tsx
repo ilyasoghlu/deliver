@@ -8,10 +8,9 @@ function QuickLinks() {
     <ul className="uppercase">
       {links.map((link)=>{
         return (
-          <li className="cursor-pointer hover:text-emerald-600" key={link.href}>
+          <li className="cursor-pointer hover:text-emerald-600 text-sm" key={link.href}>
             <Link
               href={link.href}
-              
             >
               {link.label}
             </Link>
