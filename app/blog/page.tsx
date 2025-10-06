@@ -1,8 +1,11 @@
+import PageTitle from '@/components/global/PageTitle'
 import React from 'react'
 
 function BlogPage() {
     return (
-        <div>BlogPage</div>
+        <div>
+            <PageTitle text='blog' />
+        </div>
     )
 }
 

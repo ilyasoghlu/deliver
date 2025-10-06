@@ -1,8 +1,11 @@
+import PageTitle from '@/components/global/PageTitle'
 import React from 'react'
 
 function ArchivePage() {
     return (
-        <div>ArchivePage</div>
+        <div>
+            <PageTitle text='archive' />
+        </div>
     )
 }
 

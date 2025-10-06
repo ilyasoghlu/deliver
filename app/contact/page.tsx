@@ -1,8 +1,11 @@
 import React from 'react'
+import PageTitle from '@/components/global/PageTitle'
 
 function ContactPage() {
     return (
-        <div>Contact Us</div>
+        <div>
+            <PageTitle text='contact us' />
+        </div>
     )
 }
 
