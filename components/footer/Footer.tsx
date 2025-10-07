@@ -11,8 +11,8 @@ import CopyRight from './CopyRight'
 function Footer() {
   return (
     <footer className='py-8 bg-gray-800 text-white'>
-    <Container className='flex flex-col py-4'>
-        <div className='grid grid-cols-5 gap-6 mb-6'>
+    <Container className='flex flex-col  py-4'>
+        <div className='grid grid-cols-5  gap-6 mb-6'>
           <div className='col-span-2'>
             <div className='flex flex-col sm:flex-row justify-between mb-8'>
               <Logo />
