@@ -19,7 +19,7 @@ function PortfolioPage() {
                 <Separator />
                 <BreadCrumbs />
                 <div className='py-15'>
-                    here will be product cards 
+                    here will be product cards
                 </div>
                 <Separator />
                 <div className="flex flex-col py-10 text-center items-center text-muted-foreground">
