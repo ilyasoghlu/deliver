@@ -1,6 +1,4 @@
-import PageTitle from '@/components/global/PageTitle'
-import PersonalCard from '@/components/global/PersonalCard';
-import SectionTitle from '@/components/global/SectionTitle'
+import {PageTitle, PersonalCard, SectionTitle } from '@/components/global'
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator'
 import React from 'react'
@@ -45,7 +43,11 @@ function AboutPage() {
                     <SectionTitle text='if you like what you see, join us!' />
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam rerum architecto veritatis, cumque doloribus natus magnam accusantium id harum dicta quod expedita soluta! Velit ex sapiente accusamus mollitia.</p>
                 </div>
-                <Button>
+                <Button
+                type="button"
+                variant="outline"
+                className="bg-emerald-300 uppercase text-white my-6 py-4"
+                >
                     apply now
                 </Button>
             </div>
