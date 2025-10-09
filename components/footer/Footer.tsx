@@ -12,9 +12,9 @@ function Footer() {
   return (
     <footer className='py-8 bg-gray-800 text-white'>
     <Container className='flex flex-col  py-4'>
-        <div className='grid grid-cols-5  gap-6 mb-6'>
-          <div className='col-span-2'>
-            <div className='flex flex-col sm:flex-row justify-between mb-8'>
+        <div className='grid grid-row sm:grid-cols-2 gap-6 mb-6'>
+          <div >
+            <div className='flex flex-row justify-between mb-8'>
               <Logo />
               <div>
                 <SocialLinks />
@@ -24,9 +24,11 @@ function Footer() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minima velit id architecto quod rerum sunt sed cumque repellat? Impedit doloribus dolore hic dolores reiciendis.
             </p>
           </div>
+          <div className='grid grid-row sm:grid-cols-3'>
             <ContactInfo />
             <QuickLinks />
             <NewsLetter />
+          </div>
         </div>
         <Separator />
         <CopyRight />

@@ -11,7 +11,7 @@ function ContactPage() {
       <div>
         <PageTitle text="contact us" />
         <div className="flex flex-col py-10">
-          <div className="grid grid-flow-col grid-col-2">
+          <div className="grid grid-row sm:grid-flow-col sm:grid-cols-2">
             <form className="col-span-4">
               <h6>Contact from </h6>
               Here will be form components 
