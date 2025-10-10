@@ -64,7 +64,13 @@ bun dev
         - ServiceCard
     - navbar
         - DarkMode
+            - client side component
             - import necessary icons 
+                - MoonIcon SunIcon 
+            - imports:
+                - useTheme from next-themes
+                - Button from ui/button
+                - DropdownMenu and its' sub components 
             - replace css variable in globals.css
                 - this is old css 
 ```
@@ -146,7 +152,15 @@ bun dev
                     - npm install next-themes
                 - create theme-provider 
                     - client side function 
-                    
+                        - imports:
+                            - ThemeProvider as NextThemesProvider from next-themes
+                            - type ThemeProviderProps from next-themes
+                - import ThemeProvider into providers.tsx and invoke it in there 
+                    - gets:
+                        - attribute='class'
+                        - defaultTheme='system' (in my case will be system)
+                        - enableSystem
+                        - disableTransitionOnChange
         - SocialLinks
         - Logo
         - NavBar
