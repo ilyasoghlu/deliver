@@ -63,9 +63,27 @@ bun dev
         - ProductContainer
         - ServiceCard
     - navbar
+        - NavBar
+            - imports:
+                - Logo
+                - DarkMode
+                - NavBarDropdown
+                - NavSearch 
+                - SocialLinks
+            - general imports for functionality and visuals:
+                - import useEffect and useState for responsive nav functionality
+                - Container
+                - Separator
+                - Button from ui/button 
+                - Link from next/link
+                - Links
+            - create: 
+                - link file - utils/links 
+        
+        - Logo
         - DarkMode
             - client side component
-            - import necessary icons 
+            - import necessary icons: 
                 - MoonIcon SunIcon 
             - imports:
                 - useTheme from next-themes
@@ -92,23 +110,12 @@ bun dev
                         - disableTransitionOnChange
                 - also install 
                     - npm i @radix-ui/react-icons (optional, in my case icons didn't work)
+        
         - SocialLinks
-        - Logo
-        - NavBar
-            - imports:
-                - Container
-                - Logo
-                    - imports:
-                        - Button from ui/button 
-                        - Link from next/link
-
-
-                - SocialLinks
-                - Separator
-                - Links
-                    - create utils/links 
-                    - 
-                - NavSearch 
+        - NavBarDropDown
+            - this component will be visible only in mobile or tablet version 
+            - import links from utils/links
+            - import DropdownMenu
         - NavSearch
     - footer
         - Footer

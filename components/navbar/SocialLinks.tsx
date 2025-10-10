@@ -11,7 +11,7 @@ function SocialLinks() {
                     <Button
                         size="icon"
                         variant="outline"
-                        className="w-6 h-6 rounded-full"
+                        className="w-6 h-6 rounded-full m-1"
                         key={href}
                     >
                         <Link href={href}>{label}</Link>
