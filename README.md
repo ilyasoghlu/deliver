@@ -132,3 +132,49 @@ bun dev
 
 
 
+## Create Supabase project
+
+- create .env and .env.local files in app folder (.env.local file doesn't upload into git repo that's why you can skip it )
+    - DB_PASSWORD=database password (you can generate it yourself or database can do it, I prefer database option)
+        PASSWORD ytAUaMcOsp5EboM6
+    - create:
+        - get values from Supabase - Connect option - Transaction mode 
+            - at the end of DATABASE_URL add the following 
+                - DATABASE_URL= Transaction + password+ "?pgbouncer=transaction_limit=1"
+                    - Eg:
+                        DATABASE_URL="postgresql://postgres.egdupcecusgzjezckrvx:[YOUR-PASSWORD]@aws-1-us-east-2.pooler.supabase.com:6543/postgres" (Provide your database password )
+        - get values from Supabase - Connect option - Session mode  
+            - gets just password 
+                - DIRECT_URL= Session + Password 
+            
+            
+    
+    - You wil use this values in the schema.prisma file 
+
+
+## Setup Prisma 
+    - first of al install prisma vs-code extension 
+
+    - install prisma into your project, 
+        - npm install prisma  
+        - npm install @prisma/client
+            - it  gives us a graphical interface where we can see what happens in our data base 
+        
+        - run prisma 
+            - npx prisma init 
+
+                - open schema.prisma file from prisma folder 
+                    - change logic there  (get values from .env )
+
+            - important create a prisma instance, because in development, the command next dev clears Node.js cache on run. This in turn 
+            initializes a new PrismaClient instance each time due to hot reloading that a connection to the database. This can quickly 
+            exhaust the database connections as each PrismaClient instance holds its own connection pool 
+                - create utils/db.ts
+                    - db functionality codes you can take from prisma.io or from old projects 
+
+        - there are two commands for pushing of prisma:
+            - npx prisma migrate dev --name init
+            or 
+            - npx prisma db push 
+
+
