@@ -134,7 +134,7 @@ bun dev
 
 ## Create Supabase project
 
-- create .env and .env.local files in app folder (.env.local file doesn't upload into git repo that's why you can skip it )
+- create .env and .env.local files in general folder, if it will be in any another location you will recieve error messages (.env.local file doesn't upload into git repo that's why comment it in gitignore file for first time )
     - DB_PASSWORD=database password (you can generate it yourself or database can do it, I prefer database option)
         PASSWORD ytAUaMcOsp5EboM6
     - create:

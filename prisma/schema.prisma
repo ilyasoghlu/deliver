@@ -25,5 +25,3 @@ model NewTestProfile {
   name String
 }
 
-// todo at home use npx prisma - npx prisma migrate dev --name init  and  - npx prisma db push  commands for checking connection database and prisma if everything will be ok call cybersecurity command 
-
