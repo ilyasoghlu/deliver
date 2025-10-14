@@ -4,6 +4,10 @@
 // Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
+generator client {
+  provider = "prisma-client-js"
+  // output   = "../lib/generated/prisma"
+}
 
 datasource db {
   provider = "postgresql"
@@ -11,13 +15,15 @@ datasource db {
   // directUrl      = env("DIRECT_URL")
 }
 
-generator client {
-  provider = "prisma-client-js"
-  // output   = "../lib/generated/prisma"
-}
 
 model TestProfile {
   id String @id @default(uuid())
   name String
 }
+model NewTestProfile {
+  id String @id @default(uuid())
+  name String
+}
+
+// todo at home use npx prisma - npx prisma migrate dev --name init  and  - npx prisma db push  commands for checking connection database and prisma if everything will be ok call cybersecurity command 
 
