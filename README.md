@@ -176,5 +176,12 @@ bun dev
             - npx prisma migrate dev --name init
             or 
             - npx prisma db push 
+        - create a product model in schema.prisma file (it will be model for selected product you can create models  more than one, for eg user model group model and so on )
+        if model attributes is optional you can skip it but mostly the attributes are required ones 
+            - stop the server and dev environment (Important, if you don't stop server maybe you can receive bugs )
+            - push prisma (npx prisma db push)
+            - open prisma studio (npx prisma studio)
+        - create a json file in prisma folder (in my first case it will be products.json )
+        - create seeding file in prisma folder 
 
 
