@@ -31,6 +31,11 @@ bun dev
 ## Create Pages 
 - in the app folder create page folders, and page files 
     - Home
+        - import following components:
+            - Hero,
+            - FeaturedProducts,
+            - SectionTitle,
+            - Separator  
     - Portfolio
     - About 
     - Services
@@ -58,10 +63,27 @@ bun dev
                 - className - this is an optional props 
         - SectionTitle
         - EmptyList
+            - depending of the situation this component will get different  information 
+            - gets two props, both of them will be optional:
+                - heading
+                - className 
+        - LoadingContainer 
+        - Card
+        - BreadCrumbs
+        - PageTitle
+        - Pagination
+        - PersonalCard
     - home 
-        - ServiceContainer 
+        - Hero
+        - HeroCarrousel
+        - FeaturedProducts
+            - this is an async function 
+            - import:
+                - fetchFeaturedProducts from utils/actions
+                - EmptyList from global 
         - ProductContainer
         - ServiceCard
+        
     - navbar
         - NavBar
             - imports:
@@ -128,9 +150,25 @@ bun dev
                 - NewsLetter
                 - CopyRight
     - products
-    - single-product or product-detail
+        - single-product or product-detail
+        - FavoriteToggleButton
+        - FavoriteToggleForm
+        - ProductsContainer
+        - ProductsGrid
+        - ProductsList
 
-
+## Utils Folder 
+    - create: 
+        - link file 
+        - socialLinks file
+        - db file 
+            - contains a default functionality, can be used in more than one projects 
+        - action file 
+            - import:
+                db
+            - contains special functions:
+                - fetchFeaturedProducts()  
+                - fetchAllProducts()
 
 ## Create Supabase project
 

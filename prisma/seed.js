@@ -1,23 +1,22 @@
-
-
-const {PrismaClient} = require('@prisma/client')
-const products = require('./products.json')
-const prisma = new PrismaClient()
-
+import { PrismaClient } from '@prisma/client';
+import  products from './products.json' with{type:"json"}; // Ensure this file exists and is valid
+const prisma = new PrismaClient();
 
 async function main() {
-    for(const product of products){
+    for (const product of products) {
         await prisma.product.create({
-            data:product,
-        })
+            data: product // ✅ Correctly passing the product data
+        });
     }
 }
+
 main()
-    .then(async() =>{
-        await prisma.$disconnect()
+    .then(async () => {
+        console.log('Seeding completed successfully! ✅');
+        await prisma.$disconnect();
     })
-    .catch(async (e) =>{
-        console.error(e)
-        await prisma.$disconnect()
-        process.exit()
-    })
+    .catch(async (e) => {
+        console.error('Error seeding database:', e);
+        await prisma.$disconnect();
+        process.exit(1);
+    });

@@ -1,9 +1,9 @@
 
 import SectionTitle from "@/components/global/SectionTitle"
 import {Separator } from '@/components/ui/separator'
-import FeaturedContainer from "@/components/home/FeaturedContainer";
 import Card from "@/components/global/Card";
 import { Button } from "@/components/ui/button";
+import { Hero, HeroCarousel, FeaturedProducts } from "@/components/home";
 
 
 
@@ -11,10 +11,10 @@ import { Button } from "@/components/ui/button";
 function HomePage() {
   return (
     <div className="flex flex-col items-center">
-      
+      <Hero />
       <SectionTitle text="this is home page" />
       <Separator />
-      <FeaturedContainer>
+      <FeaturedProducts>
         <div className="flex flex-col py-10 text-center items-center text-muted-foreground">
           <SectionTitle text="we are small team doing big things!" />
           <p className="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro harum repellendus rerum amet, culpa quos deleniti laudantium assumenda nostrum ipsum impedit ab saepe, voluptas distinctio.</p>
@@ -25,8 +25,8 @@ function HomePage() {
           <Card />
           <Card />
         </div>
-      </FeaturedContainer>
-      <FeaturedContainer>
+      </FeaturedProducts>
+      <FeaturedProducts>
         <div className="flex flex-col py-10 text-center items-center text-muted-foreground">
           <SectionTitle text="Some of our latest works" />
           <p className="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro harum repellendus rerum amet, culpa quos deleniti laudantium assumenda nostrum ipsum impedit ab saepe, voluptas distinctio.</p>
@@ -36,7 +36,7 @@ function HomePage() {
           <Card />
           <Card />
         </div>
-      </FeaturedContainer>
+      </FeaturedProducts>
       <Separator />
       <div className="flex flex-col py-10 text-center items-center text-muted-foreground">
         <SectionTitle text="do you like what you see?" />
