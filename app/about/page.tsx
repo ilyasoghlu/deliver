@@ -1,4 +1,4 @@
-import {PageTitle, PersonalCard, SectionTitle } from '@/components/global'
+import {OfferContent, PageTitle, PersonalCard, SectionTitle } from '@/components/global'
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator'
 import React from 'react'
@@ -38,19 +38,16 @@ function AboutPage() {
                     <PersonalCard name='Olivander' position='President' info='lorem moremghsiunr dhbhncudbn ajajrbsssbb s'/>
                 </div>
             </div>
-            <div className='flex flex-col text-center text-muted-foreground py-8'>
-                <div>
-                    <SectionTitle text='if you like what you see, join us!' />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam rerum architecto veritatis, cumque doloribus natus magnam accusantium id harum dicta quod expedita soluta! Velit ex sapiente accusamus mollitia.</p>
-                </div>
+            <OfferContent text='if you like what you see, join us!'>
                 <Button
-                type="button"
-                variant="outline"
-                className="bg-emerald-300 uppercase text-white my-6 py-4"
-                >
+                    type="button"
+                    variant="outline"
+                    className="bg-emerald-300 uppercase text-white my-6 py-4"
+                    >
                     apply now
                 </Button>
-            </div>
+            </OfferContent>
+            
         </div>
     );
 }

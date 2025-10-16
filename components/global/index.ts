@@ -6,12 +6,16 @@ import PageTitle from "./PageTitle";
 import Pagination from "./Pagination";
 import PersonalCard from "./PersonalCard";
 import SectionTitle from "./SectionTitle";
+import OfferContent from "./OfferContent";
 
-export {BreadCrumbs,
-Card,
-Container,
-EmptyList,
-PageTitle,
-Pagination,
-PersonalCard,
-SectionTitle}
+export {
+    BreadCrumbs,
+    Card,
+    Container,
+    EmptyList,
+    PageTitle,
+    Pagination,
+    PersonalCard,
+    SectionTitle,
+    OfferContent,
+}

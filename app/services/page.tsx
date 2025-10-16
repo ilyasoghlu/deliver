@@ -1,4 +1,4 @@
-import {PageTitle, SectionTitle} from '@/components/global'
+import {OfferContent, PageTitle, SectionTitle} from '@/components/global'
 import { Separator } from '@/components/ui/separator'
 import React from 'react'
 
@@ -25,10 +25,8 @@ function ServicesPage() {
             <div>
                 here will be info block
             </div>
-            <div className="flex flex-col flex-wrap  items-center justify-between sm:justify-center py-12 text-center text-muted-foreground">
-                        <SectionTitle text="Do you need a theme " />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis quo, aut assumenda totam cum commodi reprehenderit similique minus! Aut.</p>
-            </div>
+            <OfferContent text='Do you need a theme?' />
+            
         </div>
     )
 }

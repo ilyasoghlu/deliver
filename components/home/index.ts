@@ -1,9 +1,9 @@
 import Hero from "./Hero";
 import HeroCarousel from "./HeroCarousel";
-import FeaturedProducts from "./FeaturedProducts";
+import FeaturedContent from "./FeaturedContent";
 
 export{
     Hero,
     HeroCarousel,
-    FeaturedProducts,
-}
+    FeaturedContent,
+} 

@@ -3,6 +3,7 @@ import PageTitle from '@/components/global/PageTitle'
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
 import SectionTitle from '@/components/global/SectionTitle';
+import { OfferContent } from '@/components/global';
 
 
 
@@ -46,9 +47,7 @@ function ContactPage() {
             </div>
           </div>
           <Separator />
-          <div className="flex flex-col py-10 text-center items-center text-muted-foreground">
-            <SectionTitle text="do you need a theme?" />
-            <p className="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro harum repellendus rerum amet, culpa quos deleniti laudantium assumenda nostrum ipsum impedit ab saepe, voluptas distinctio.</p>
+          <OfferContent text='do you need a theme?'>
             <Button
               type="button"
               variant="outline"
@@ -56,7 +55,8 @@ function ContactPage() {
             >
               purchase
             </Button>
-          </div>
+          </OfferContent>
+          
         </div>
       </div>
     );

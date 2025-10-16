@@ -4,6 +4,7 @@ import SectionTitle from '@/components/global/SectionTitle'
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
 import BreadCrumbs from '@/components/global/BreadCrumbs';
+import { OfferContent } from '@/components/global';
 
 
 
@@ -22,9 +23,7 @@ function PortfolioPage() {
                     here will be product cards
                 </div>
                 <Separator />
-                <div className="flex flex-col py-10 text-center items-center text-muted-foreground">
-                    <SectionTitle text="do you need a website?" />
-                    <p className="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro harum repellendus rerum amet, culpa quos deleniti laudantium assumenda nostrum ipsum impedit ab saepe, voluptas distinctio.</p>
+                <OfferContent text='do you need a website?'>
                     <Button
                     type="button"
                     variant="outline"
@@ -32,7 +31,8 @@ function PortfolioPage() {
                     >
                     get a free quote
                     </Button>
-                </div>
+                </OfferContent>
+               
             </div>
         </div>
     );
