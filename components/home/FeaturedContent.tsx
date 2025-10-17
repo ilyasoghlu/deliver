@@ -13,7 +13,9 @@ async function FeaturedContent({ text }: { text: string }) {
         <SectionTitle text={text} />
         <p className="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro harum repellendus rerum amet, culpa quos deleniti laudantium assumenda nostrum ipsum impedit ab saepe, voluptas distinctio.</p>
       </div>
-      <ProductsGrid products={products} />
+      <div className="mb-12">
+        <ProductsGrid products={products} />
+      </div>
       <Separator />
     </section>
   );

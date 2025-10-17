@@ -13,6 +13,17 @@ pnpm dev
 # or
 bun dev
 ```
+
+
+| Task                     | Command                     |
+| ------------------------ | --------------------------- |
+| Install dependencies     | `npm install`               |
+| Regenerate Prisma client | `npx prisma generate`       |
+| Apply migrations         | `npx prisma migrate deploy` |
+| Start project            | `npm run dev`               |
+| Open database UI         | `npx prisma studio`         |
+
+
 ## Remove or change default codes 
 - app
     - globals.css
@@ -157,6 +168,24 @@ bun dev
         - ProductsGrid
             - import 
                 - currencyFormat function form utils/format
+                - Product from prisma/clent (without it you cant fetch products)
+                - Card and Card content components
+                - Image component
+                - Link component
+            - for fetching image links:
+                - setup next.config.ts (in my case I get images from pexels.com )
+``` ts
+    images:{
+        remotePatterns:[
+            {
+                protocol: 'https',
+                hostname: 'images.pexels.com', 
+            }
+        ]
+    }
+```
+
+
         - ProductsList
             - import 
                 - currencyFormat function form utils/format
@@ -227,5 +256,15 @@ bun dev
             - open prisma studio (npx prisma studio)
         - create a json file in prisma folder (in my first case it will be products.json )
         - create seeding file in prisma folder 
+
+        | Task                 | Command                                     | Description                          |
+| -------------------- | ------------------------------------------- | ------------------------------------ |
+| Create new migration | `npx prisma migrate dev --name your_change` | Updates DB + keeps migration history |
+| Push schema directly | `npx prisma db push`                        | Fast update without migration files  |
+| Update Prisma client | `npx prisma generate`                       | Refreshes types and client           |
+| Open visual editor   | `npx prisma studio`                         | Browse your DB visually              |
+
+
+
 
 
