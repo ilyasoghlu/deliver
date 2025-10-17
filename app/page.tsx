@@ -29,7 +29,6 @@ function HomePage() {
             purchase
           </Button>
         </OfferContent> 
-      
     </div>
   );
 }

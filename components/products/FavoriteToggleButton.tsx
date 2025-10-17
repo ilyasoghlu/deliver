@@ -1,8 +1,16 @@
 import React from 'react'
+import {FaHeart} from 'react-icons/fa'
+import { Button } from '../ui/button'
 
-function FavoriteToggleButton() {
+function FavoriteToggleButton({productId}:{productId:string}) {
   return (
-    <div>FavoriteToggleButton</div>
+    <Button
+      variant='outline'
+      size='icon'
+      className='p-2 cursor-pointer'
+    >
+      <FaHeart />
+    </Button>
   )
 }
 

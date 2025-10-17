@@ -155,7 +155,11 @@ bun dev
         - FavoriteToggleForm
         - ProductsContainer
         - ProductsGrid
+            - import 
+                - currencyFormat function form utils/format
         - ProductsList
+            - import 
+                - currencyFormat function form utils/format
 
 ## Utils Folder 
     - create: 
@@ -169,6 +173,8 @@ bun dev
             - contains special functions:
                 - fetchFeaturedProducts()  
                 - fetchAllProducts()
+        - format file 
+            -  create a currency format function 
 
 ## Create Supabase project
 
