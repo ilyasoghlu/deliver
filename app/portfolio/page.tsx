@@ -1,5 +1,5 @@
 import React from 'react'
-import PageTitle from '@/components/global/PageTitle'
+
 import SectionTitle from '@/components/global/SectionTitle'
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
@@ -11,7 +11,7 @@ import { OfferContent } from '@/components/global';
 function PortfolioPage() {
     return (
         <div>
-            <PageTitle text="portfolio" />
+            
             <div className="flex flex-col py-10 text-center text-muted-foreground">
                 <div className="flex flex-col py-10">
                     <SectionTitle text="nothing but the best for our portfolio" />

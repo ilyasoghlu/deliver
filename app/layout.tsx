@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -5,6 +6,9 @@ import NavBar from "@/components/navbar/NavBar";
 import Container from "@/components/global/Container";
 import Footer from "@/components/footer/Footer";
 import Providers from "./providers";
+import DynamicHero from "@/components/global/DynamicHero";
+
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,10 +26,11 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
+  children, 
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+ 
   return (
     <html lang="en" suppressHydrationWarning>
       <body
@@ -33,6 +38,7 @@ export default function RootLayout({
       >
         <Providers>
           <NavBar />
+          <DynamicHero />
           <Container className="py-20">
             {children}
           </Container>

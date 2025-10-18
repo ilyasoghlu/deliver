@@ -1,8 +1,23 @@
 import React from 'react'
+import { 
+  Carousel, 
+  CarouselContent, 
+  CarouselItem, 
+  CarouselNext, 
+  CarouselPrevious 
+} from '../ui/carousel'
+// import { SectionTitle } from '../global'
+
 
 function HeroCarousel() {
   return (
-    <div>HeroCarousel</div>
+    <Carousel>
+      <CarouselContent>
+        
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
   )
 }
 

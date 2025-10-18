@@ -1,11 +1,11 @@
 
 import React from 'react'
 import { Separator } from '@/components/ui/separator';
-import { PageTitle, Pagination } from '@/components/global';
+import { Pagination } from '@/components/global';
 function BlogPage() {
     return (
         <div>
-            <PageTitle text="blog" />
+       
             <div className="flex flex-col py-10">
             <div className="grid grid-row sm:grid-flow-col grid-col-2">
                 <div className="col-span-4">

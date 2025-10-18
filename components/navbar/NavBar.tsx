@@ -39,7 +39,7 @@ function NavBar() {
                 </div>
                 <Separator />
                 <div className="flex flex-row flex-wrap justify-between items-center py-4 sm:py-8">
-                    <div className="flex flex-col flex-wrap sm:flex-row items-start sm:items-center justify-between gap-12 py-4">
+                    <div className="flex flex-col flex-wrap sm:flex-row items-center sm:items-center justify-between gap-12 py-4">
                         {(isMobile)?
                     <NavBarDropdown />:
                     <Links />

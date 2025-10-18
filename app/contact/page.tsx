@@ -1,8 +1,7 @@
 import React from 'react'
-import PageTitle from '@/components/global/PageTitle'
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
-import SectionTitle from '@/components/global/SectionTitle';
+// import SectionTitle from '@/components/global/SectionTitle';
 import { OfferContent } from '@/components/global';
 
 
@@ -10,7 +9,7 @@ import { OfferContent } from '@/components/global';
 function ContactPage() {
     return (
       <div>
-        <PageTitle text="contact us" />
+      
         <div className="flex flex-col py-10">
           <div className="grid grid-row sm:grid-flow-col sm:grid-cols-2">
             <form className="col-span-4">

@@ -84,9 +84,35 @@ bun dev
         - PageTitle
         - Pagination
         - PersonalCard
+        - DynamicHero 
+            - imports:
+                - Hero 
+                - PageTitle
+                - usePathname from next/navigation  
+            - for dynamic pages use it 
+```ts
+const pathname = usePathname();
+const segments = pathname.split("/").filter(Boolean); // e.g. ["products", "123"]
+
+if (segments[0] === "products" && segments[1]) {
+  text = `Product #${segments[1]}`;
+}
+
+```
     - home 
         - Hero
+            - imports:
+                - Container
+                - HeroCarousel
         - HeroCarrousel
+            - imports:
+                - Carousel,
+                - CarouselContent,
+                - CarouselItem,
+                - CarouselNext,
+                - CarouselPrevious,
+                - 
+
         - FeaturedProducts
             - this is an async function 
             - import:

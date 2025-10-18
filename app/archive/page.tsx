@@ -1,11 +1,11 @@
-import PageTitle from '@/components/global/PageTitle'
+
 import React from 'react'
 import { Separator } from '@/components/ui/separator';
 
 function ArchivePage() {
     return (
       <div>
-        <PageTitle text="archive" />
+        
         <div className="flex flex-col py-10">
           <div className="grid grid-flow-col grid-col-2">
             <div className="col-span-4">

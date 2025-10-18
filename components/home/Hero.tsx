@@ -1,8 +1,14 @@
+import { Container } from '../global'
 import React from 'react'
+import HeroCarousel from './HeroCarousel'
 
 function Hero() {
   return (
-    <div>Hero</div>
+    <section className='flex flex-wrap items-center justify-center py-12'>
+      <Container>
+        <HeroCarousel />
+      </Container>
+    </section>
   )
 }
 

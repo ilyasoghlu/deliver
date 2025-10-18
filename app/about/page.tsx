@@ -1,4 +1,4 @@
-import {OfferContent, PageTitle, PersonalCard, SectionTitle } from '@/components/global'
+import {OfferContent, PersonalCard, SectionTitle } from '@/components/global'
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator'
 import React from 'react'
@@ -6,7 +6,7 @@ import React from 'react'
 function AboutPage() {
     return (
         <div>
-            <PageTitle text="about us" />
+           
             <div className="flex flex-col flex-wrap  items-center justify-between sm:justify-center py-12 text-center text-muted-foreground">
             <SectionTitle text="we are a small team doing big things!" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis quo, aut assumenda totam cum commodi reprehenderit similique minus! Aut.</p>
