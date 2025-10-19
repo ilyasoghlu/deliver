@@ -48,6 +48,21 @@ bun dev
             - SectionTitle,
             - Separator  
     - Portfolio
+        - create a loading file (this page has a separate loading file)
+        - import  
+            - SectionTitle 
+            - EmptyList
+            - 
+            - BreadCrupms (it will be optional, maybe I don't use it)
+            - ProductsContainer
+                - ProductsGrid
+                - ProductsList 
+            - setup
+                - Search 
+                    - use searchParams
+                        - layout (with optional parameters)
+                        - search (with optional parameters)
+                        -  
     - About 
     - Services
     - Archive
@@ -105,6 +120,7 @@ if (segments[0] === "products" && segments[1]) {
                 - Container
                 - HeroCarousel
         - HeroCarrousel
+            - This component does not completed, please find an idea about it 
             - imports:
                 - Carousel,
                 - CarouselContent,

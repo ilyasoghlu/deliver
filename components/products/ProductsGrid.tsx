@@ -36,7 +36,7 @@ function ProductsGrid({products}:{products:Product[]}) {
                     </div>
                     <div className='mt-4 text-center'>
                       <h2 className='text-lg capitalize'>{name}</h2>
-                      <p className='text-muted-foreground ье-2'>{dollarAmount}</p>
+                      <p className='text-muted-foreground mt-2'>{dollarAmount}</p>
                     </div>
                   </CardContent>
                 </Card>

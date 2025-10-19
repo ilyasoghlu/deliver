@@ -13,7 +13,7 @@ function HeroCarousel() {
   return (
     <Carousel>
       <CarouselContent>
-        
+        <CarouselItem />
       </CarouselContent>
       <CarouselPrevious />
       <CarouselNext />
