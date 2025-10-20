@@ -8,6 +8,7 @@ import NavSearch from "./NavSearch"
 import SocialLinks from "./SocialLinks"
 import NavBarDropdown from "./NavBarDropdown"
 import {useEffect, useState} from 'react'
+import { Button } from "../ui/button"
 
 
 function NavBar() {
@@ -45,7 +46,11 @@ function NavBar() {
                     <Links />
                 }
                     </div>
-                    <NavSearch />
+                    <Button
+                        variant='outline'
+                        className="w-4 h-4  rounded-full">
+                        <NavSearch />
+                    </Button>
                 </div>
             </Container>
         </nav>

@@ -201,6 +201,14 @@ if (segments[0] === "products" && segments[1]) {
             - import links from utils/links
             - import DropdownMenu
         - NavSearch
+            - user side function 
+            - install
+                - npm i use-debonce
+            - imports
+                - Input from ui/input
+                - useSearchParams, useRouter from next/navigation
+                - useDebounceCallback from use-debounce
+                - useState, useEffect from react     
     - footer
         - Footer
             - imports:
@@ -216,15 +224,18 @@ if (segments[0] === "products" && segments[1]) {
         - FavoriteToggleButton
         - FavoriteToggleForm
         - ProductsContainer
-        - ProductsGrid
-            - import 
-                - currencyFormat function form utils/format
-                - Product from prisma/clent (without it you cant fetch products)
-                - Card and Card content components
-                - Image component
-                - Link component
-            - for fetching image links:
-                - setup next.config.ts (in my case I get images from pexels.com )
+            - import:
+                - ProductsGrid and ProductList components
+                    - import 
+                        - currencyFormat function form utils/format
+                        - Product from prisma/clent (without it you cant fetch products)
+                        - Card and Card content components 
+                        - Link component from next/link
+                        - Image component from next/image
+                            - for fetching image links:
+                                - setup next.config.ts (in my case I get images from pexels.com )
+                        
+            
 ``` ts
     images:{
         remotePatterns:[
