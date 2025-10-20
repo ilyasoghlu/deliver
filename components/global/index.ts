@@ -7,6 +7,7 @@ import Pagination from "./Pagination";
 import PersonalCard from "./PersonalCard";
 import SectionTitle from "./SectionTitle";
 import OfferContent from "./OfferContent";
+import LoadingContainer from "./LoadingContainer";
 
 export {
     BreadCrumbs,
@@ -18,4 +19,5 @@ export {
     PersonalCard,
     SectionTitle,
     OfferContent,
+    LoadingContainer,
 }

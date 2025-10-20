@@ -49,20 +49,29 @@ bun dev
             - Separator  
     - Portfolio
         - create a loading file (this page has a separate loading file)
+            - client side function
+            - import LoadingContainer
+
         - import  
             - SectionTitle 
             - EmptyList
             - 
             - BreadCrupms (it will be optional, maybe I don't use it)
             - ProductsContainer
+                - this is an async function 
                 - ProductsGrid
                 - ProductsList 
+                - necessary icons 
+                - Button component from ui/button
+                - Separator from ui/separator
+                - fetchAllProducts from utils/actions
+                - Link from next/link 
             - setup
                 - Search 
-                    - use searchParams
-                        - layout (with optional parameters)
+                    - use searchParams - for controlling product container 
+                        - layout (with optional parameters) 
                         - search (with optional parameters)
-                        -  
+                        - in the utils/actions add: 
     - About 
     - Services
     - Archive
