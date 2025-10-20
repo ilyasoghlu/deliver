@@ -16,7 +16,7 @@ async function ProductsContainer({layout, search}:{layout:string, search:string}
   return (
     <>
       {/*Haeder   */}
-      <section>
+      <section className='flex justify-between items-center py-2'>
         <div className="flex justify-between items-center">
           <h4 className='font-medium text-lg'>{totalProducts} product{totalProducts>1&& 's'}</h4>
         </div>
@@ -31,7 +31,7 @@ async function ProductsContainer({layout, search}:{layout:string, search:string}
             </Link>
           </Button>
           <Button
-            variant={layout === 'grid'? 'default':'ghost'}
+            variant={layout === 'list'? 'default':'ghost'}
             size='icon'
             asChild
           >
