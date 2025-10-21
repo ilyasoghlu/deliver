@@ -6,21 +6,19 @@ const prisma = new PrismaClient();
 
 async function main() {
   // Seed products
-  for (const product of products) {
     await prisma.product.createMany({
-      data: product,
+      data: products,
+      skipDuplicates:true
+    });
+
+  // Seed prices
+
+    await prisma.priceItem.createMany({
+      data: prices,
       skipDuplicates:true
     });
   }
 
-  // Seed prices
-  for (const price of prices) {
-    await prisma.price.createMany({
-      data: price,
-      skipDuplicates:true
-    });
-  }
-}
 
 main()
   .then(async () => {

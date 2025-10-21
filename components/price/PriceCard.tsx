@@ -5,9 +5,10 @@ import priceItems from '@/prisma/priceList.json'
 import { formatCurrency } from '@/utils/format'
 import Link from 'next/link'
 
+
 function PriceCard() {
     return (
-        <div className='flex flex-row justify-between items-center'>
+        <div className='py-12 grid gap-4 md:grid-cols-2 lg:grid-cols-4'>
             {priceItems.map((priceItem)=>{
                 const {
                     title,
@@ -29,8 +30,8 @@ function PriceCard() {
             
                 return (
                   <article
-                    key={title}
-                    className="group relative w-1/4"
+                    key={priceItemId}
+                    className="group relative"
                   >
                     <Link href={`/priceItems/${priceItemId}`}>
                       <Card
