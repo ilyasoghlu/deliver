@@ -15,7 +15,7 @@ async function ProductsContainer({layout, search}:{layout:string, search:string}
     const searchTerm = search ? `&search=${search}` : ''
   return (
     <>
-      {/*Haeder   */}
+      {/*Header   */}
       <section>
         <div className="flex justify-between items-center py-2">
           <div>

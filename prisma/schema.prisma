@@ -19,3 +19,20 @@ model Product {
   updatedAt   DateTime @updatedAt
   clerkId     String   @default(uuid()) @db.Uuid
 }
+
+model PriceItem {
+  id              String   @id @default(uuid()) @db.Uuid
+  title           String
+  price           Int?
+  priceNote       String?
+  design          String
+  pages           String
+  admin           Boolean?
+  description     String
+  support         Boolean
+  contact         Boolean
+  basicSeo        Boolean?
+  advancedSeo     Boolean?
+  functions       Boolean?
+  // clerkId         String   @default(uuid()) @db.Uuid
+}

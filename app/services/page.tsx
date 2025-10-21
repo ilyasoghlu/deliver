@@ -1,4 +1,5 @@
 import {OfferContent, SectionTitle} from '@/components/global'
+import PriceCard from '@/components/products/PriceCard'
 import { Separator } from '@/components/ui/separator'
 import React from 'react'
 
@@ -19,7 +20,7 @@ function ServicesPage() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis quo, aut assumenda totam cum commodi reprehenderit similique minus! Aut.</p>
             </div>
             <div>
-                here will be price block 
+                <PriceCard />
             </div>
             <Separator />
             <div>
