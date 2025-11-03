@@ -9,7 +9,7 @@ function BlogPage() {
             <div className="grid grid-row sm:grid-flow-col grid-col-2 sm:gap-x-4">
                 <div className="col-span-4">
                 <div className="flex flex-col items-start gap-2 p-2">
-                    <div>Image box</div>
+                    <div className='h-80 w-3/4'>Image box</div>
                     <h5>Title </h5>
                     <div className="flex flex-row justify-between gap-6">
                     <div>Date Block</div>

@@ -11,7 +11,7 @@ function DynamicHero() {
         "/about": "About Us",
         "/portfolio": "Portfolio",
         "/contact": "Contact Us",
-        "/blog": "Blog",
+        "/blog": "Our Blog",
         "/services": "Services",
         "/archive": "Archive",
         };
