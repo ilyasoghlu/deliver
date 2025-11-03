@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardContent, CardTitle, CardDescription, CardHeader, CardFooter } from '../ui/card'
+import { Card, CardContent, CardTitle, CardHeader, CardFooter } from '../ui/card'
 import { Separator } from '../ui/separator'
 import priceItems from '@/prisma/priceList.json'
 import { formatCurrency } from '@/utils/format'

@@ -1,6 +1,8 @@
 import React from 'react'
 import PriceCard from './PriceCard'
 import { SectionTitle } from '../global'
+
+
 function PriceContent() {
     return (
         <>
