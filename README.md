@@ -87,6 +87,17 @@ npm run dev
 ### Create component folder and files 
     - cart
     - form
+    - blog
+        - create MediaCard component
+            - ImageConetent component
+            - VideoContent component 
+            - AudioContent component
+            - DateBlock component
+            - CreatorInfo component
+                - use calendar library 
+            - NewsType component
+            - CommentBlock component 
+
     - global
         - Container
             - gets 2 props: 

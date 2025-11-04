@@ -6,7 +6,7 @@ function Logo() {
   return (
     <Button asChild>
       <Link href='/' >
-        <img src='' alt="logo"/>
+        {/* <img src='' alt="logo"/> */}
       </Link>
     </Button>
   )
