@@ -72,6 +72,8 @@ npm run dev
     - Services
     - Archive
     - Blog
+        - import 
+            - MediaCard component 
     - Other pages
     - Contact Us
 
