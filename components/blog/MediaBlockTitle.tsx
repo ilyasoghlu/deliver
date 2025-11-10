@@ -2,9 +2,9 @@ import React from 'react'
 
 function MediaBlockTitle({text}:{text:string}) {
   return (
-    <div>
-        <h5 className="uppercase text-muted-foreground">{text}</h5>
-    </div>
+    <>
+        <h5 className="uppercase font-semibold text-muted-foreground my-2">{text}</h5>
+    </>
   )
 }
 

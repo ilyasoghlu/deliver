@@ -2,68 +2,14 @@
 import React from 'react'
 import { Separator } from '@/components/ui/separator';
 import { Pagination } from '@/components/global';
-import MediaCard from '@/components/blog/MediaCard';
-function BlogPage({text}:{text:string}) {
+import BlogContainer from '@/components/blog/BlogContainer';
+function BlogPage() {
     return (
-        <div>
+        
             <div className="flex flex-col py-10">
             <div className="grid grid-row sm:grid-flow-col grid-col-2 sm:gap-x-4">
                 <div className="col-span-4">
-                    <MediaCard />
-                    <Separator />
-                    <MediaCard />
-                    <Separator />
-                    <MediaCard />
-                    <Separator />
-                    <MediaCard />
-                    <Separator />
-                <div className="flex flex-col items-start gap-2 p-2">
-                    <div className="h-80 w-3/4">Image box</div>
-                    <h5 className="uppercase text-muted-foreground">Basic Post with Featured Image</h5>
-                    <div className="flex flex-row justify-between gap-6">
-                    <div>Date Block</div>
-                    <div>Creator Info</div>
-                    <div>News Type</div>
-                    <div>Comment Block</div>
-                    </div>
-                    <p className="text-muted-foreground mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed nisi eget lectus iaculis congue. Nullam eleifend congue turpis, vel scelerisque massa fermentum ac ... </p>
-                </div>
-                <Separator />
-                <div className="flex flex-col items-start gap-2 p-2 mt-4">
-                    <h5 className="uppercase text-muted-foreground">Basic Post with no Featured Image</h5>
-                    <div className="flex flex-row justify-between gap-6">
-                    <div>Date Block</div>
-                    <div>Creator Info</div>
-                    <div>News Type</div>
-                    <div>Comment Block</div>
-                    </div>
-                    <p className="text-muted-foreground mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed nisi eget lectus iaculis congue. Nullam eleifend congue turpis, vel scelerisque massa fermentum ac ... </p>
-            
-                </div>
-                <Separator />
-                <div className="flex flex-col items-start gap-2 p-2 mt-4">
-                    <div className="h-80 w-3/4">Video Content box</div>
-                    <h5 className="uppercase text-muted-foreground">Video post example</h5>
-                    <div className="flex flex-row justify-between gap-6">
-                    <div>Date Block</div>
-                    <div>Creator Info</div>
-                    <div>News Type</div>
-                    <div>Comment Block</div>
-                    </div>
-                    <p className="text-muted-foreground mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed nisi eget lectus iaculis congue. Nullam eleifend congue turpis, vel scelerisque massa fermentum ac ... </p>
-                </div>
-                <Separator />
-                <div className="flex flex-col items-start gap-2 p-2 mt-4">
-                    <div className="h-20 w-3/4">Audio player box</div>
-                    <h5 className="uppercase text-muted-foreground">Audio clip post example</h5>
-                    <div className="flex flex-row justify-between gap-6">
-                    <div>Date Block</div>
-                    <div>Creator Info</div>
-                    <div>News Type</div>
-                    <div>Comment Block</div>
-                    </div>
-                    <p className="text-muted-foreground mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed nisi eget lectus iaculis congue. Nullam eleifend congue turpis, vel scelerisque massa fermentum ac ... </p>
-                </div>
+                <BlogContainer />
                 <Separator />
                 <Pagination />
                 </div>
@@ -95,7 +41,7 @@ function BlogPage({text}:{text:string}) {
                 </div>
             </div>
             </div>
-        </div>
+        
     );
 }
 

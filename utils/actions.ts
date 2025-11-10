@@ -20,3 +20,13 @@ export const fetchAllProducts = async() =>{
     })
     return products
 }
+
+
+export const fetchAllMedia = async() =>{
+    const blog = await db.mediaItem.findMany({
+        orderBy: {
+            createdAt: 'desc'
+        }
+    })
+    return blog
+}

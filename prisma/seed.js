@@ -1,6 +1,7 @@
 import { PrismaClient } from "@prisma/client";
 import products from "./products.json" with { type: "json" };
 import prices from "./priceList.json" with { type: "json" };
+import mediaItems from "./blog.json" with { type: "json" };
 
 const prisma = new PrismaClient();
 
@@ -18,7 +19,12 @@ async function main() {
       skipDuplicates:true
     });
   }
-
+  // Seed blog
+  
+  await prisma.mediaItem.createMany({
+    data: mediaItems,
+    skipDuplicates:true
+  })
 
 main()
   .then(async () => {
