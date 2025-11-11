@@ -2,10 +2,13 @@
 import { usePathname } from 'next/navigation'
 import { Hero } from '../home'
 import PageTitle from './PageTitle'
+import ProductBreadCrumbs from '../product-details/ProductBreadCrumbs'
 
 
 function DynamicHero() {
     const pathname = usePathname()
+
+    const isProductPage = pathname.startsWith('/portfolio/')&& pathname.split('/').length ===3
     const titles: Record<string, string> = {
         "/": "Home",
         "/about": "About Us",
@@ -16,8 +19,13 @@ function DynamicHero() {
         "/archive": "Archive",
         };
         const text = titles[pathname] || 'Page'
-    return pathname === "/"?<Hero />:<PageTitle text={text} />
-    
+    if(pathname === '/'){
+        return<Hero />
+    }
+    if (isProductPage) {
+        return <ProductBreadCrumbs name={name}/>
+    }
+    return<PageTitle text={text} />
 }
 
 export default DynamicHero

@@ -68,12 +68,26 @@ npm run dev
                         - layout (with optional parameters) 
                         - search (with optional parameters)
                         - in the utils/actions add: 
+            - create a folder [id] it will be a dynamic folder 
+                - ProductDetails
+                - create a fetch function in the actions file
+                    - import redirect from next/navigation  (important get it from next/navigation)
+                    - it will be an async function 
+                    - gets productId as props 
+    - Other pages
+                    
     - About 
     - Services
     - Archive
     - Blog
         - import 
             - MediaCard component 
+        - create a folder [id] - this is a dynamic folder 
+            - BlogDetails
+                - create a fetch function in the actions file
+                    - import redirect from next/navigation  (important get it from next/navigation)
+                    - it will be an async function 
+                    - gets productId as props 
     - Other pages
     - Contact Us
 

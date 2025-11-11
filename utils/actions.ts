@@ -1,5 +1,5 @@
 import db from './db'
-
+import { redirect } from 'next/navigation'
 
 
 export const fetchFeaturedProducts = async() =>{
@@ -21,6 +21,16 @@ export const fetchAllProducts = async() =>{
     return products
 }
 
+export const fetchProductDetails = async(productId:string) =>{
+    const product = await db.product.findUnique({
+        where:{
+            id:productId
+        }
+    })
+    if(!product) redirect('/portfolio')
+        return product
+}
+
 
 export const fetchAllMedia = async() =>{
     const blog = await db.mediaItem.findMany({
@@ -29,4 +39,14 @@ export const fetchAllMedia = async() =>{
         }
     })
     return blog
+}
+
+export const fetchBlogDeatils = async (mediaItemId:string) =>{
+    const mediaItem = await db.mediaItem.findUnique({
+        where:{
+            id:mediaItemId
+        },
+    })
+    if(!mediaItem) redirect('/blog')
+        return mediaItem
 }
