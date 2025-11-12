@@ -1,12 +1,12 @@
 'use client'
 
-import { LoadingContainer } from "@/components/global"
+import { BlogLoadingContainer } from "@/components/global"
 
 
 
 function loading() {
     return (
-        <LoadingContainer />
+        <BlogLoadingContainer />
     )
 }
 

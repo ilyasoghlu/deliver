@@ -3,6 +3,7 @@ import React from 'react'
 import { Separator } from '@/components/ui/separator';
 import { Pagination } from '@/components/global';
 import BlogContainer from '@/components/blog/BlogContainer';
+import { PopularPosts } from '@/components/blog';
 function BlogPage() {
     return (
         
@@ -16,20 +17,7 @@ function BlogPage() {
 
                 {/* Sidebar Conetent */}
                 <div className="col-span-1">
-                <div className="py-2">
-                    <h6 className="uppercase font-semibold">Popular posts</h6>
-                    <div className="mt-4">
-                    <p className="mb-2">New Premium WordPress Theme - Blaco</p>
-                    <Separator />
-                    <p className="mb-2">Top Web Trends of 2013</p>
-                    <Separator />
-                    <p className="mb-2">Video Post Example</p>
-                    <Separator />
-                    <p className="mb-2">How Important is Twitter</p>
-                    <Separator />
-                    <p>Home Builders New Planning Solution</p>
-                    </div>
-                </div>
+                    <PopularPosts />
                 <div className="mt-4 py-2">
                     <h6 className="uppercase font-semibold">Blog categories</h6>
                     <div></div>

@@ -23,7 +23,7 @@ function DynamicHero() {
         return<Hero />
     }
     if (isProductPage) {
-        return <ProductBreadCrumbs name={name}/>
+        return <ProductBreadCrumbs />
     }
     return<PageTitle text={text} />
 }

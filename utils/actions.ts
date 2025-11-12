@@ -41,7 +41,7 @@ export const fetchAllMedia = async() =>{
     return blog
 }
 
-export const fetchBlogDeatils = async (mediaItemId:string) =>{
+export const fetchBlogDetails = async (mediaItemId:string) =>{
     const mediaItem = await db.mediaItem.findUnique({
         where:{
             id:mediaItemId

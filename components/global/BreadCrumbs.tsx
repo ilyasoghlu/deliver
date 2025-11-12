@@ -1,8 +1,8 @@
 import React from 'react'
 
-function BreadCrumbs() {
+function BreadCrumbs({text}:{text:string}) {
     return (
-        <div>BreadCrumbs</div>
+        <div>{text}</div>
     )
 }
 

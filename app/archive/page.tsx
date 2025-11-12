@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { Separator } from '@/components/ui/separator';
+import { PopularPosts } from '@/components/blog';
 
 function ArchivePage() {
     return (
@@ -34,23 +35,9 @@ function ArchivePage() {
                 <h6 className="uppercase font-semibold">About delivery theme</h6>
                 <p className="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo ligula, interdum ut lobortis quis, interdum vitae metus. Proin fringilla metus non nulla cursus, sit amet rutrum est pretium.</p>
               </div>
-              <div className="py-2">
-                <h6 className="uppercase font-semibold">Popular posts</h6>
-                <div className="mt-4">
-                  <p className="mb-2">New Premium WordPress Theme - Blaco</p>
-                  <Separator />
-                  <p className="mb-2">Top Web Trends of 2013</p>
-                  <Separator />
-                  <p className="mb-2">Video Post Example</p>
-                  <Separator />
-                  <p className="mb-2">How Important is Twitter</p>
-                  <Separator />
-                  <p>Home Builders New Planning Solution</p>
-                </div>
-              </div>
+              <PopularPosts />
               <div className="mt-4">
                 <h6 className="uppercase font-semibold">Flicker widget</h6>
-
                 <div className='flex flex-wrap gap-2 py-4'>
                   <div className='h-15 w-15 bg-blue-500'></div>
                   <div className='h-15 w-15 bg-blue-500'></div>
@@ -60,8 +47,6 @@ function ArchivePage() {
                   <div className='h-15 w-15 bg-blue-500'></div>
                   <div className='h-15 w-15 bg-blue-500'></div>
                   <div className='h-15 w-15 bg-blue-500'></div>
-               
-
                 </div>
               </div>
 

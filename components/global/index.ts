@@ -8,6 +8,7 @@ import PersonalCard from "./PersonalCard";
 import SectionTitle from "./SectionTitle";
 import OfferContent from "./OfferContent";
 import LoadingContainer from "./LoadingContainer";
+import BlogLoadingContainer from "./BlogLoadingContainer";
 
 export {
     BreadCrumbs,
@@ -20,4 +21,5 @@ export {
     SectionTitle,
     OfferContent,
     LoadingContainer,
+    BlogLoadingContainer,
 }
