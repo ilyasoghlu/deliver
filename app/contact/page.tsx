@@ -1,20 +1,40 @@
 import React from 'react'
 import { Separator } from '@/components/ui/separator';
-import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import { Label } from '@/components/ui/label';
 // import SectionTitle from '@/components/global/SectionTitle';
 import { OfferContent } from '@/components/global';
-
-
+import { Button } from '@/components/ui/button';
 
 function ContactPage() {
     return (
       <div>
-      
+        <OfferContent text='we would like to hear from you!'>
+            
+            
+          </OfferContent>
+          <Separator />
         <div className="flex flex-col py-10">
-          <div className="grid grid-row sm:grid-flow-col sm:grid-cols-2">
-            <form className="col-span-4">
+          <div className="grid grid-row sm:grid-flow-col sm:grid-cols-2 gap-6">
+            <form className="col-span-8">
               <h6>Contact from </h6>
-              Here will be form components 
+              <Label className='uppercase'>
+                name
+              </Label>
+              <Input type='text' name='name' required/>
+              <Label className='uppercase'>
+                email address
+              </Label>
+              <Input type='email' name='email' required/>
+              <Label className='uppercase'>
+                subject
+              </Label>
+              <Input type='text' name='text' required/>
+              <Label className='uppercase'>
+                message
+              </Label>
+              <Textarea />
               <Button
                 type="button"
                 variant="outline"
@@ -23,7 +43,7 @@ function ContactPage() {
                 send message
               </Button>
             </form>
-            <div className="row-span-1">
+            <div>
               <div className="flex flex-col flex-wrap">
                 <h6 className="uppercase font-bold ">Our Location</h6>
                 <div className="py-5">
