@@ -52,7 +52,7 @@ npm run dev
             - SectionTitle 
             - EmptyList
             - 
-            - BreadCrupms (it will be optional, maybe I don't use it)
+            - BreadCrumbs (it will be optional, maybe I don't use it)
             - ProductsContainer
                 - this is an async function 
                 - ProductsGrid
@@ -105,7 +105,7 @@ npm run dev
     - form
     - blog
         - create MediaCard component
-            - ImageConetent component
+            - ImageContent component
             - VideoContent component 
             - AudioContent component
             - DateBlock component
@@ -251,7 +251,7 @@ if (segments[0] === "products" && segments[1]) {
                 - ProductsGrid and ProductList components
                     - import 
                         - currencyFormat function form utils/format
-                        - Product from prisma/clent (without it you cant fetch products)
+                        - Product from prisma/client (without it you cant fetch products)
                         - Card and Card content components 
                         - Link component from next/link
                         - Image component from next/image

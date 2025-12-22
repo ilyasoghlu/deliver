@@ -11,7 +11,7 @@ import WorkHours from '@/components/contact/WorkHours';
 
 function ContactPage() {
     return (
-      <div>
+      <>
         <div className='flex flex-wrap items-center justify-center text-center mb-8'>
           <SectionTitle text="we would like to hear from you!" />
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quia animi commodi ut sit porro quasi accusantium doloremque ratione at modi exercitationem in iusto optio aliquam facere fugiat, numquam excepturi.</p>
@@ -39,7 +39,7 @@ function ContactPage() {
             </Button>
           </OfferContent>
         </div>
-      </div>
+      </>
     );
 }
 
