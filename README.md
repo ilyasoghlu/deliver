@@ -77,6 +77,19 @@ npm run dev
     - Other pages
                     
     - About 
+        - create static elements 
+        - create ourTeam.json file in prisma folder
+            - create a schema in schema.prisma 
+            - create team member arrays
+            - create seed functionality
+            - push information into db (Supabase)
+            - create fetch function in actions file 
+        - create about component folder 
+            - create OurTeam component
+                - import Card components from ui folder 
+                - import Image component from ui 
+                - import SocialLinks component from global 
+                
     - Services
     - Archive
     - Blog
@@ -90,6 +103,10 @@ npm run dev
                     - gets productId as props 
     - Other pages
     - Contact Us
+        - create static information 
+        - create static Form component 
+
+
 
 ## Create Components 
 

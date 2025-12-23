@@ -50,3 +50,4 @@ export const fetchBlogDetails = async (mediaItemId:string) =>{
     if(!mediaItem) redirect('/blog')
         return mediaItem
 }
+

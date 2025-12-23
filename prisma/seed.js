@@ -26,6 +26,13 @@ async function main() {
     skipDuplicates:true
   })
 
+  // Seed team 
+
+  await prisma.ourTeam.createMany({
+    data:ourTeam,
+    skipDuplicates:true
+  })
+
 main()
   .then(async () => {
     console.log("Seeding completed successfully! ✅");
