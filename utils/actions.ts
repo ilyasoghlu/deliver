@@ -51,3 +51,10 @@ export const fetchBlogDetails = async (mediaItemId:string) =>{
         return mediaItem
 }
 
+// 
+export const fetchOurTeam = async (ourTeamId?: string) => {
+  return db.ourTeam.findMany({
+    where: ourTeamId ? { id: ourTeamId } : undefined,
+  });
+};
+

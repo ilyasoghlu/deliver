@@ -61,3 +61,4 @@ model OurTeam{
     description         String
     clerkId             String   @default(uuid()) @db.Uuid
 }
+
