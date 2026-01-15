@@ -9,7 +9,7 @@ function TeamMember({members}:{members:OurTeam[]}) {
     <>
     {
       members.map((member) =>{
-        const {firstName, lastName, position, description, mediaFile} = member
+        const {firstName, lastName, position, description, image} = member
         const memberId = member.id 
         return (
           <article key={memberId} className='group relative'>
@@ -22,7 +22,7 @@ function TeamMember({members}:{members:OurTeam[]}) {
             <CardContent className="p-4">
               <div className="relative h-64 md:h-48 rounded overflow-hidden ">
                 <Image
-                  src={mediaFile}
+                  src={image}
                   alt={firstName}
                   fill
                   sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"

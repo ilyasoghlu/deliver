@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import React from "react";
 import { fetchOurTeam } from "@/utils/actions";
-import { OurTeam as OurTeamType } from "@prisma/client";
+// import { OurTeam as OurTeamType } from "@prisma/client";
 
 async function AboutPage() {
   // Fetch all team members
-  const team: OurTeamType[] = await fetchOurTeam();
+  // const team:OurTeamType[] = await fetchOurTeam();
 
   return (
     <div>
@@ -43,7 +43,7 @@ async function AboutPage() {
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
         </div>
         <div className="flex flex-row">
-          <OurTeam team={team} />
+          {/* <OurTeam team={team} /> */}
         </div>
       </div>
 

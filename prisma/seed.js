@@ -2,6 +2,8 @@ import { PrismaClient } from "@prisma/client";
 import products from "./products.json" with { type: "json" };
 import prices from "./priceList.json" with { type: "json" };
 import mediaItems from "./blog.json" with { type: "json" };
+import ourTeam from "./ourTeam.json" with { type: "json" };
+
 
 const prisma = new PrismaClient();
 

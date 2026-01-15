@@ -54,7 +54,7 @@ model MediaItem {
 
 model OurTeam{
     id                  String   @id @default(uuid()) @db.Uuid
-    mediaFile           String
+    image               String
     firstName           String
     lastName            String
     position            String

@@ -52,9 +52,18 @@ export const fetchBlogDetails = async (mediaItemId:string) =>{
 }
 
 // 
-export const fetchOurTeam = async (ourTeamId?: string) => {
-  return db.ourTeam.findMany({
-    where: ourTeamId ? { id: ourTeamId } : undefined,
-  });
-};
 
+
+// export const fetchOurTeam = async () => {
+//   return await db.ourTeam.findMany({
+//     select: {
+//       id: true,
+//       image: true, // ✅ CORRECT COLUMN
+//       firstName: true,
+//       lastName: true,
+//       position: true,
+//       description: true,
+//       clerkId: true,
+//     },
+//   });
+// };

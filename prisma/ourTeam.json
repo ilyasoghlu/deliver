@@ -25,6 +25,6 @@
         "lastName": "Bird",
         "description": "A great product",
         "position": "Designer",
-        "mediaFile": "data:image/png;base64,iVBORw..."
+        "image": "data:image/png;base64,iVBORw..."
     }
 ]
