@@ -84,12 +84,12 @@ npm run dev
 ```ts
             import type { OurTeam } from '@prisma/client'
 ```
-            - create team member arrays
-            - create seed functionality
+            - create team member arrays ✅
+            - create seed functionality ✅
             - push information into db (Supabase)
             - create fetch function in actions file (get over id)
         - create about component folder 
-            - create OurTeamContainer component
+            - create OurTeamContainer component ✅
                 - create TeamMember component  
                 - import Card components from ui folder 
                 - import Image component from ui 

@@ -3,7 +3,7 @@ import { OfferContent, SectionTitle } from "@/components/global";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import React from "react";
-import { fetchOurTeam } from "@/utils/actions";
+// import { fetchOurTeam } from "@/utils/actions";
 // import { OurTeam as OurTeamType } from "@prisma/client";
 
 async function AboutPage() {
@@ -14,10 +14,10 @@ async function AboutPage() {
     <div>
       {/* Intro Section */}
       <div className="flex flex-col flex-wrap items-center justify-between sm:justify-center py-12 text-center text-muted-foreground">
+        {/* Title elemet  */}
         <SectionTitle text="we are a small team doing big things!" />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis quo, aut assumenda totam cum commodi reprehenderit similique minus! Aut.</p>
       </div>
-
       <Separator />
 
       {/* Mission / Values / Why Choose Us */}
@@ -39,9 +39,11 @@ async function AboutPage() {
       {/* Team Section */}
       <div className="flex flex-col text-center text-muted-foreground py-8">
         <div>
+          {/* Section Title  */}
           <SectionTitle text="meet our team" />
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
         </div>
+        {/* Team section  */}
         <div className="flex flex-row">
           {/* <OurTeam team={team} /> */}
         </div>
