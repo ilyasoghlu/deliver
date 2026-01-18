@@ -77,22 +77,22 @@ npm run dev
     - Other pages
                     
     - About 
-        - create static elements 
-        - create ourTeam.json file in prisma folder
-            - create a schema in schema.prisma 
+        - create static elements (then it will be dynamic)✅
+        - create ourTeam.json file in prisma folder ✅
+            - create a schema in schema.prisma ✅
                 - it maybe gets error message about isolated..., because we created isolation rule in tsconfig file. That's why in the component import it as:
 ```ts
             import type { OurTeam } from '@prisma/client'
 ```
             - create team member arrays ✅
             - create seed functionality ✅
-            - push information into db (Supabase)
-            - create fetch function in actions file (get over id)
-        - create about component folder 
+            - push information into db (Supabase) ✅
+            - create fetch function in actions file (get over id) ✅
+        - create about component folder ✅
             - create OurTeamContainer component ✅
-                - create TeamMember component  
-                - import Card components from ui folder 
-                - import Image component from ui 
+                - create TeamMember component  ✅
+                - import Card components from ui folder ✅
+                - import Image component from ui ✅
                 - import SocialLinks component from global 
 
     - Services

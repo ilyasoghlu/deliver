@@ -1,39 +1,20 @@
 import { PrismaClient } from "@prisma/client";
-import products from "./products.json" with { type: "json" };
-import prices from "./priceList.json" with { type: "json" };
-import mediaItems from "./blog.json" with { type: "json" };
-import ourTeam from "./ourTeam.json" with { type: "json" };
-
+import fs from "fs";
 
 const prisma = new PrismaClient();
 
+// Load JSON files
+const products = JSON.parse(fs.readFileSync("./prisma/products.json", "utf-8"));
+const prices = JSON.parse(fs.readFileSync("./prisma/priceList.json", "utf-8"));
+const mediaItems = JSON.parse(fs.readFileSync("./prisma/blog.json", "utf-8"));
+const ourTeam = JSON.parse(fs.readFileSync("./prisma/ourTeam.json", "utf-8"));
+
 async function main() {
-  // Seed products
-    await prisma.product.createMany({
-      data: products,
-      skipDuplicates:true
-    });
-
-  // Seed prices
-
-    await prisma.priceItem.createMany({
-      data: prices,
-      skipDuplicates:true
-    });
-  }
-  // Seed blog
-  
-  await prisma.mediaItem.createMany({
-    data: mediaItems,
-    skipDuplicates:true
-  })
-
-  // Seed team 
-
-  await prisma.ourTeam.createMany({
-    data:ourTeam,
-    skipDuplicates:true
-  })
+  await prisma.product.createMany({ data: products, skipDuplicates: true });
+  await prisma.priceItem.createMany({ data: prices, skipDuplicates: true });
+  await prisma.mediaItem.createMany({ data: mediaItems, skipDuplicates: true });
+  await prisma.ourTeam.createMany({ data: ourTeam, skipDuplicates: true });
+}
 
 main()
   .then(async () => {

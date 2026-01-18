@@ -1,5 +1,6 @@
 generator client {
-  provider = "prisma-client-js"
+  provider   = "prisma-client-js"
+  engineType = "binary"
 }
 
 datasource db {
@@ -21,44 +22,42 @@ model Product {
 }
 
 model PriceItem {
-  id              String   @id @default(uuid()) @db.Uuid
-  title           String
-  price           Int?
-  priceNote       String?
-  design          String
-  pages           String
-  admin           Boolean?
-  description     String
-  support         Boolean
-  contact         Boolean
-  basicSeo        Boolean?
-  advancedSeo     Boolean?
-  functions       Boolean?
-  clerkId         String?   @default(uuid()) @db.Uuid
+  id          String   @id @default(uuid()) @db.Uuid
+  title       String
+  price       Int?
+  priceNote   String?
+  design      String
+  pages       String
+  admin       Boolean?
+  description String
+  support     Boolean
+  contact     Boolean
+  basicSeo    Boolean?
+  advancedSeo Boolean?
+  functions   Boolean?
+  clerkId     String?  @default(uuid()) @db.Uuid
 }
-
 
 model MediaItem {
-  id                  String   @id @default(uuid()) @db.Uuid
-  mediaFile           String
-  title               String
-  creator             String
-  newsType            String
-  comment             String
-  commentNumber       Int
-  description         String
-  createdAt           DateTime @default(now())
-  updatedAt           DateTime @updatedAt
-  clerkId             String   @default(uuid()) @db.Uuid
+  id            String   @id @default(uuid()) @db.Uuid
+  mediaFile     String
+  title         String
+  creator       String
+  newsType      String
+  comment       String
+  commentNumber Int
+  description   String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  clerkId       String   @default(uuid()) @db.Uuid
 }
 
-model OurTeam{
-    id                  String   @id @default(uuid()) @db.Uuid
-    image               String
-    firstName           String
-    lastName            String
-    position            String
-    description         String
-    clerkId             String   @default(uuid()) @db.Uuid
+model OurTeam {
+  id          String @id @default(uuid()) @db.Uuid
+  firstName   String
+  lastName    String
+  position    String
+  description String
+  clerkId     String @default(uuid()) @db.Uuid
+  image       String
 }
-
