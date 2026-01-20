@@ -2,8 +2,9 @@ import React from 'react'
 import { Card, CardContent, CardDescription } from '../ui/card'
 import Image from 'next/image'
 import { OurTeam } from '@prisma/client'
+import Link from 'next/link'
 
-function TeamMember({members}:{members:OurTeam[]}) {
+function TeamMemberCard({members}:{members:OurTeam[]}) {
   
   return (
     <>
@@ -12,15 +13,19 @@ function TeamMember({members}:{members:OurTeam[]}) {
         const {firstName, lastName, position, description, image} = member
         const memberId = member.id 
         return (
-          <article key={memberId} className='group relative'>
+          <article 
+            key={memberId} 
+            className='group relative' >
+              <Link href={`/about/${memberId}`}>
           <Card
             className="transform 
             group-hover:shadow-xl 
             transition-shadow 
-            duration-500"
+            duration-500
+            "
             >
             <CardContent className="p-4">
-              <div className="relative h-64 md:h-48 rounded overflow-hidden ">
+              <div className="relative h-64 w-60 md:h-48 rounded overflow-hidden ">
                 <Image
                   src={image}
                   alt={firstName}
@@ -46,6 +51,7 @@ function TeamMember({members}:{members:OurTeam[]}) {
               <CardDescription />
             </CardContent>
           </Card>
+          </Link>
         </article>
         );
       })
@@ -54,4 +60,4 @@ function TeamMember({members}:{members:OurTeam[]}) {
   )
 }
 
-export default TeamMember
+export default TeamMemberCard

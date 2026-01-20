@@ -91,9 +91,16 @@ npm run dev
         - create about component folder ✅
             - create OurTeamContainer component ✅
                 - create TeamMember component  ✅
+                - import Link from next/link (for details page)
                 - import Card components from ui folder ✅
                 - import Image component from ui ✅
                 - import SocialLinks component from global 
+            - create a folder [id] it will be a dynamic folder 
+                - create a fetchMemberDetails function in actions 
+                - create MemberDetails page functionality will be async 
+                    - import Image from next/image
+                      
+
 
     - Services
     - Archive

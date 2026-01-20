@@ -51,19 +51,29 @@ export const fetchBlogDetails = async (mediaItemId:string) =>{
         return mediaItem
 }
 
-// 
+// Our Team functionality
 
 
 export const fetchOurTeam = async () => {
-  return await db.ourTeam.findMany({
-    select: {
-      id: true,
-      image: true, // ✅ CORRECT COLUMN
-      firstName: true,
-      lastName: true,
-      position: true,
-      description: true,
-      clerkId: true,
-    },
-  });
+    return await db.ourTeam.findMany({
+        select: {
+        id: true,
+        image: true, // ✅ CORRECT COLUMN
+        firstName: true,
+        lastName: true,
+        position: true,
+        description: true,
+        clerkId: true,
+        },
+    });
 };
+
+export const fetchMemberDetails = async (memberId:string) =>{
+    const member = await db.ourTeam.findUnique({
+        where:{
+            id:memberId
+        },
+    })
+    if(!member) redirect('/about')
+        return member
+}

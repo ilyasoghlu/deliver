@@ -3,7 +3,7 @@ import React from 'react'
 import SectionTitle from '@/components/global/SectionTitle'
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
-import BreadCrumbs from '@/components/global/BreadCrumbs';
+// import BreadCrumbs from '@/components/global/BreadCrumbs';
 import { OfferContent } from '@/components/global';
 import ProductsContainer from '@/components/products/ProductsContainer';
 

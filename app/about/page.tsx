@@ -1,9 +1,10 @@
-import OurTeam from "@/components/about/OurTeamContainer";
+
+import OurTeamContainer from "@/components/about/OurTeamContainer";
 import { OfferContent, SectionTitle } from "@/components/global";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import React from "react";
-// import { fetchOurTeam } from "@/utils/actions";
+
 // import { OurTeam as OurTeamType } from "@prisma/client";
 
 async function AboutPage() {
@@ -45,7 +46,7 @@ async function AboutPage() {
         </div>
         {/* Team section  */}
         <div className="flex flex-row">
-          {/* <OurTeam team={team} /> */}
+          <OurTeamContainer/>
         </div>
       </div>
 
