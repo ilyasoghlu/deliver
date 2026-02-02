@@ -15,7 +15,7 @@ function BlogPage() {
                 <Pagination />
                 </div>
 
-                {/* Sidebar Conetent */}
+                {/* Sidebar Content */}
                 <div className="col-span-1">
                     <PopularPosts />
                 <div className="mt-4 py-2">

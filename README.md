@@ -53,6 +53,7 @@ npm run dev
             - EmptyList
             - 
             - BreadCrumbs (it will be optional, maybe I don't use it)
+                BreadCrumbs commented out in DynamicHero (temporarily)
             - ProductsContainer
                 - this is an async function 
                 - ProductsGrid
@@ -79,7 +80,11 @@ npm run dev
     - About 
         - create static elements (then it will be dynamic)✅
         - create ourTeam.json file in prisma folder ✅
+            
             - create a schema in schema.prisma ✅
+                - create models for ✅
+                    - skills, projects, experiences - this models will be optional  ✅
+                    - in seed file you will adopt them, remember in nested options createMany is not working -use just create 
                 - it maybe gets error message about isolated..., because we created isolation rule in tsconfig file. That's why in the component import it as:
 ```ts
             import type { OurTeam } from '@prisma/client'

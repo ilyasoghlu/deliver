@@ -2,29 +2,84 @@
     {
         "firstName": "Michael",
         "lastName": "Turner",
-        "description": "A great product",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Un quisque sodales sit amet.",
         "position": "President",
-        "image": "data:image/png;base64,iVBORw..."
+        "image": "data:image/png;base64,iVBORw...",
+        "experiences": [
+        {
+            "title": "Senior Developer",
+            "company": "Tech Corp",
+            "from": "2020",
+            "to": "2023"
+        },
+        {
+            "title": "Lead Engineer",
+            "company": "Startup Inc",
+            "from": "2017",
+            "to": "2020"
+        }
+        ],
+        "projects": [
+        {
+            "title": "E-commerce Platform",
+            "projectInfo": "Built a full-stack e-commerce platform using Next.js and Prisma.",
+            "projectLink": "https://example.com/ecommerce"
+        },
+        {
+            "title": "Internal Dashboard",
+            "projectInfo": "Dashboard for internal analytics and reporting.",
+            "projectLink": ""
+        }
+        ],
+        "skills": [{ "title": "React" }, { "title": "TypeScript" }, { "title": "Node.js" }]
     },
     {
         "firstName": "John",
         "lastName": "Smith",
-        "description": "A great product",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Un quisque sodales sit amet.",
         "position": "Programmer",
-        "image": "data:image/png;base64,iVBORw..."
+        "image": "data:image/png;base64,iVBORw...",
+        "experiences": [
+        {
+            "title": "Frontend Developer",
+            "company": "Creative Solutions",
+            "from": "2019",
+            "to": "2023"
+        }
+        ],
+        "projects": [
+        {
+            "title": "Portfolio Website",
+            "projectInfo": "Developed a personal portfolio with animations.",
+            "projectLink": "https://example.com/portfolio"
+        }
+        ],
+        "skills": [{ "title": "Vue.js" }, { "title": "JavaScript" }]
     },
     {
-        "firstName": "Ashley",
-        "lastName": "Hunter",
-        "description": "A great product",
-        "position": "HR",
-        "image": "data:image/png;base64,iVBORw..."
+    "firstName": "Ashley",
+    "lastName": "Hunter",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Un quisque sodales sit amet.",
+    "position": "HR",
+    "image": "data:image/png;base64,iVBORw...",
+    "experiences": [],
+    "projects": [],
+    "skills": [{ "title": "Recruitment" }, { "title": "Onboarding" }]
     },
     {
         "firstName": "Tim",
         "lastName": "Bird",
-        "description": "A great product",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Un quisque sodales sit amet.",
         "position": "Designer",
-        "image": "data:image/png;base64,iVBORw..."
+        "image": "data:image/png;base64,iVBORw...",
+        "experiences": [],
+        "projects": [
+        {
+            "title": "Brand Redesign",
+            "projectInfo": "Redesigned branding for a startup, including logo and color palette.",
+            "projectLink": "https://example.com/brand-redesign"
+        }
+        ],
+        "skills": [{ "title": "Figma" }, { "title": "Adobe Illustrator" }]
     }
 ]

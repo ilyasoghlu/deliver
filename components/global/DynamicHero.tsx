@@ -8,7 +8,7 @@ import ProductBreadCrumbs from '../product-details/ProductBreadCrumbs'
 function DynamicHero() {
     const pathname = usePathname()
 
-    const isProductPage = pathname.startsWith('/portfolio/')&& pathname.split('/').length ===3
+    // const isProductPage = pathname.startsWith('/portfolio/')&& pathname.split('/').length ===3
     const titles: Record<string, string> = {
         "/": "Home",
         "/about": "About Us",
@@ -22,9 +22,9 @@ function DynamicHero() {
     if(pathname === '/'){
         return<Hero />
     }
-    if (isProductPage) {
-        return <ProductBreadCrumbs />
-    }
+    // if (isProductPage) {
+    //     return <ProductBreadCrumbs productId={productId} />
+    // }
     return<PageTitle text={text} />
 }
 

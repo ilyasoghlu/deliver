@@ -10,10 +10,47 @@ const mediaItems = JSON.parse(fs.readFileSync("./prisma/blog.json", "utf-8"));
 const ourTeam = JSON.parse(fs.readFileSync("./prisma/ourTeam.json", "utf-8"));
 
 async function main() {
-  await prisma.product.createMany({ data: products, skipDuplicates: true });
-  await prisma.priceItem.createMany({ data: prices, skipDuplicates: true });
-  await prisma.mediaItem.createMany({ data: mediaItems, skipDuplicates: true });
-  await prisma.ourTeam.createMany({ data: ourTeam, skipDuplicates: true });
+  // Flat tables (safe with createMany)
+  await prisma.product.createMany({
+    data: products,
+    skipDuplicates: true,
+  });
+
+  await prisma.priceItem.createMany({
+    data: prices,
+    skipDuplicates: true,
+  });
+
+  await prisma.mediaItem.createMany({
+    data: mediaItems,
+    skipDuplicates: true,
+  });
+
+  // ! Relational data (must use create)
+  for (const member of ourTeam) {
+    await prisma.ourTeam.create({
+      data: {
+        firstName: member.firstName,
+        lastName: member.lastName,
+        position: member.position,
+        description: member.description,
+        image: member.image,
+        clerkId: member.clerkId ?? "",
+
+        experiences: {
+          create: member.experiences ?? [],
+        },
+
+        projects: {
+          create: member.projects ?? [],
+        },
+
+        skills: {
+          create: member.skills ?? [],
+        },
+      },
+    });
+  }
 }
 
 main()
