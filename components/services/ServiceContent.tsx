@@ -1,6 +1,7 @@
 import React from 'react'
 import { Separator } from '../ui/separator'
 import { SectionTitle } from '../global'
+import ServiceBlogContainer  from './ServiceBlogContainer'
 function ServiceContent() {
   return (
     <>
@@ -9,9 +10,9 @@ function ServiceContent() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis quo, aut assumenda totam cum commodi reprehenderit similique minus! Aut.</p>
             </div>
             <Separator />
-            <div>
-                here will be service tabs
-            </div>
+            
+                <ServiceBlogContainer />
+            
     </>
   )
 }

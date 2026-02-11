@@ -1,3 +1,4 @@
+import { fetchAllMedia } from '@/utils/actions';
 import db from './db'
 import { redirect } from 'next/navigation'
 
@@ -32,6 +33,9 @@ export const fetchProductDetails = async(productId:string) =>{
 }
 
 
+
+
+
 export const fetchAllMedia = async() =>{
     const blog = await db.mediaItem.findMany({
         orderBy: {
@@ -57,13 +61,13 @@ export const fetchBlogDetails = async (mediaItemId:string) =>{
 export const fetchOurTeam = async () => {
     return await db.ourTeam.findMany({
         select: {
-        id: true,
-        image: true, // ✅ CORRECT COLUMN
-        firstName: true,
-        lastName: true,
-        position: true,
-        description: true,
-        clerkId: true,
+            id: true,
+            image: true, // ✅ CORRECT COLUMN
+            firstName: true,
+            lastName: true,
+            position: true,
+            description: true,
+            clerkId: true,
         },
     });
 };
@@ -77,3 +81,28 @@ export const fetchMemberDetails = async (memberId:string) =>{
     if(!member) redirect('/about')
         return member
 }
+
+
+
+export const fetchAllServiceBlog = async() =>{
+    return await db.serviceBlogItem.findMany({
+    select: {
+                id: true,
+                image: true, 
+                title: true,
+                description: true,
+            
+            },
+    })
+}
+
+
+export const fetchServiceBlogItemDetails = async (serviceBlogItemId:string) => {
+    const serviceBlogItem = await db.serviceBlogItem.findUnique({
+        where: {id: serviceBlogItemId}
+    });
+    if (!serviceBlogItem) {
+        redirect("/services");  
+    } 
+    return serviceBlogItem;
+};

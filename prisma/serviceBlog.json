@@ -1,0 +1,32 @@
+[
+        {
+        "title": "Service Title 1",
+        "image": "data:image/png;base64,iVBORw...",
+        "description": "A great product"
+        },
+        {
+        "title": "Service Title 2",
+        "image": "data:image/png;base64,iVBORw...",
+        "description": "A great product"
+        },
+        {
+        "title": "Service Title 3",
+        "image": "data:image/png;base64,iVBORw...",
+        "description": "A great product"
+        },
+        {
+        "title": "Service Title 4",
+        "image": "data:image/png;base64,iVBORw...",
+        "description": "A great product"
+        },
+        {
+        "title": "Service Title 5",
+        "image": "data:image/png;base64,iVBORw...",
+        "description": "A great product"
+        },
+        {
+        "title": "Service Title 6",
+        "image": "data:image/png;base64,iVBORw...",
+        "description": "A great product"
+        }
+]

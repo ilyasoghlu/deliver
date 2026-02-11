@@ -97,3 +97,11 @@ model Skill {
   person   OurTeam @relation(fields: [personId], references: [id], onDelete: Cascade)
   @@index([personId])
 }
+
+
+model ServiceBlogItem{
+  id      String  @id @default(uuid()) @db.Uuid
+  title   String
+  image   String
+  description String
+}
