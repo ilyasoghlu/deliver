@@ -108,6 +108,26 @@ npm run dev
 
 
     - Services
+        - create a model in schema file 
+        - create a mock data in json format 
+        - create a load and functionality in prisma.seed file 
+        - create fetch functionality for fetching of all data and data details in action file 
+        - seed the db 
+        - create service components 
+            - ServiceBlogContainer
+                - import ServiceBlog component 
+                - it will be async functionality 
+                    - convert to variable and export to ServiceBlog component 
+                - import fetch all data function 
+            - ServiceBlog 
+                - gets serviceBlog as props 
+                - import:
+                    - ServiceBlogItem
+                    - Card, CardContent
+                    - Image 
+                    - Link 
+            - ServiceBlogItem 
+
     - Archive
     - Blog
         - import 

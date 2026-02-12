@@ -32,6 +32,9 @@ async function main() {
     skipDuplicates: true,
   });
 
+console.log("DATABASE_URL:", process.env.DATABASE_URL);
+
+
   // ! Relational data (must use create)
   for (const member of ourTeam) {
     await prisma.ourTeam.create({

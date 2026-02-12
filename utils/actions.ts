@@ -1,4 +1,4 @@
-import { fetchAllMedia } from '@/utils/actions';
+
 import db from './db'
 import { redirect } from 'next/navigation'
 
@@ -93,7 +93,9 @@ export const fetchAllServiceBlog = async() =>{
                 description: true,
             
             },
-    })
+            
+        })
+        console.log("APP DATABASE_URL:", process.env.DATABASE_URL);
 }
 
 
