@@ -7,19 +7,17 @@ import React from 'react'
 
 function ServicesPage() {
     return (
-        <div>
-            <ServiceContent />
-            <Separator />
-            <ServiceBlogContainer />
-            <PriceContent />
-            <Separator />
-            <div>
-                here will be info block
-            </div>
-            <OfferContent text='Do you need a theme?' />
-            
-        </div>
-    )
+      <div>
+        <ServiceContent />
+        <Separator />
+        <ServiceBlogContainer />
+        <Separator />
+        <PriceContent />
+        <Separator />
+        <div>here will be info block</div>
+        <OfferContent text="Do you need a theme?" />
+      </div>
+    );
 }
 
 export default ServicesPage

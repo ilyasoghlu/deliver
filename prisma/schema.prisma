@@ -53,55 +53,51 @@ model MediaItem {
 }
 
 model OurTeam {
-  id          String @id @default(uuid()) @db.Uuid
+  id          String       @id @default(uuid()) @db.Uuid
   firstName   String
   lastName    String
   position    String
   description String
   clerkId     String
   image       String
-
   experiences Experience[]
-  projects Project[]
-  skills Skill[]
+  projects    Project[]
+  skills      Skill[]
 }
 
 model Experience {
-  id      String  @id @default(uuid()) @db.Uuid
-  title   String
-  company String
-  from    String
-  to      String?
-
+  id       String  @id @default(uuid()) @db.Uuid
+  title    String
+  company  String
+  from     String
+  to       String?
   personId String  @db.Uuid
   person   OurTeam @relation(fields: [personId], references: [id], onDelete: Cascade)
 }
 
 model Project {
-  id      String  @id @default(uuid()) @db.Uuid
-  title   String
+  id          String  @id @default(uuid()) @db.Uuid
+  title       String
   projectInfo String
-  projectLink String? 
-  personId String  @db.Uuid
-  person   OurTeam @relation(fields: [personId], references: [id], onDelete: Cascade)
+  projectLink String?
+  personId    String  @db.Uuid
+  person      OurTeam @relation(fields: [personId], references: [id], onDelete: Cascade)
 
   @@index([personId])
-
 }
 
 model Skill {
-  id      String  @id @default(uuid()) @db.Uuid
-  title   String?
-  
+  id       String  @id @default(uuid()) @db.Uuid
+  title    String?
   personId String  @db.Uuid
   person   OurTeam @relation(fields: [personId], references: [id], onDelete: Cascade)
+
   @@index([personId])
 }
 
-
-model ServiceBlogItem{
-  id      String  @id @default(uuid()) @db.Uuid
-  title   String
-  image   String
+model ServiceBlogItem {
+  id          String @id @default(uuid()) @db.Uuid
+  title       String @unique
+  image       String
   description String
 }

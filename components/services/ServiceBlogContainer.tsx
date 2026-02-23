@@ -7,7 +7,7 @@ async function ServiceBlogContainer() {
 
     console.log(servicesBlog)
         return (
-            <div className='flex p-8 gap-4'>
+            <div className='flex  p-8'>
                 <ServiceBlog servicesBlog = {servicesBlog}/>
             </div>
         )

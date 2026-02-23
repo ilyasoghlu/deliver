@@ -396,6 +396,11 @@ if (segments[0] === "products" && segments[1]) {
         - create a json file in prisma folder (in my first case it will be products.json )
         - create seeding file in prisma folder 
 
+
+
+
+        
+
         | Task                 | Command                                     | Description                          |
 | -------------------- | ------------------------------------------- | ------------------------------------ |
 | Create new migration | `npx prisma migrate dev --name your_change` | Updates DB + keeps migration history |

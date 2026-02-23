@@ -11,8 +11,7 @@ function ServiceContent() {
             </div>
             <Separator />
             
-                <ServiceBlogContainer />
-            
+
     </>
   )
 }
