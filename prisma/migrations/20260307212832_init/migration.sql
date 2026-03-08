@@ -106,11 +106,26 @@ CREATE TABLE "ServiceBlogItem" (
     CONSTRAINT "ServiceBlogItem_pkey" PRIMARY KEY ("id")
 );
 
+-- CreateTable
+CREATE TABLE "ServiceInfo" (
+    "id" UUID NOT NULL,
+    "title" TEXT NOT NULL,
+    "info" TEXT NOT NULL,
+
+    CONSTRAINT "ServiceInfo_pkey" PRIMARY KEY ("id")
+);
+
 -- CreateIndex
 CREATE INDEX "Project_personId_idx" ON "Project"("personId");
 
 -- CreateIndex
 CREATE INDEX "Skill_personId_idx" ON "Skill"("personId");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "ServiceBlogItem_title_key" ON "ServiceBlogItem"("title");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "ServiceInfo_title_key" ON "ServiceInfo"("title");
 
 -- AddForeignKey
 ALTER TABLE "Experience" ADD CONSTRAINT "Experience_personId_fkey" FOREIGN KEY ("personId") REFERENCES "OurTeam"("id") ON DELETE CASCADE ON UPDATE CASCADE;

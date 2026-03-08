@@ -9,6 +9,7 @@ const prices = JSON.parse(fs.readFileSync("./prisma/priceList.json", "utf-8"));
 const mediaItems = JSON.parse(fs.readFileSync("./prisma/blog.json", "utf-8"));
 const ourTeam = JSON.parse(fs.readFileSync("./prisma/ourTeam.json", "utf-8"));
 const serviceBlog = JSON.parse(fs.readFileSync("./prisma/serviceBlog.json", "utf-8"));
+const serviceInfo = JSON.parse(fs.readFileSync("./prisma/serviceInfo.json", "utf-8"));
 
 async function main() {
   // Flat tables (safe with createMany)
@@ -29,6 +30,11 @@ async function main() {
 
   await prisma.mediaItem.createMany({
     data: mediaItems,
+    skipDuplicates: true,
+  });
+
+  await prisma.serviceInfo.createMany({
+    data: serviceInfo,
     skipDuplicates: true,
   });
 

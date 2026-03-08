@@ -4,10 +4,8 @@ import { fetchAllServiceBlog } from '@/utils/actions'
 
 async function ServiceBlogContainer() {
     const servicesBlog = await fetchAllServiceBlog()
-
-    console.log(servicesBlog)
         return (
-            <div className='flex  p-8'>
+            <div className='flex flex-row flex-wrap gap-2 p-8'>
                 <ServiceBlog servicesBlog = {servicesBlog}/>
             </div>
         )

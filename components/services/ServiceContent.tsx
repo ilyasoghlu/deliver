@@ -1,7 +1,6 @@
 import React from 'react'
 import { Separator } from '../ui/separator'
 import { SectionTitle } from '../global'
-import ServiceBlogContainer  from './ServiceBlogContainer'
 function ServiceContent() {
   return (
     <>

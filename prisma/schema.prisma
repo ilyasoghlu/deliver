@@ -101,3 +101,8 @@ model ServiceBlogItem {
   image       String
   description String
 }
+model ServiceInfo {
+  id          String @id @default(uuid()) @db.Uuid
+  title       String @unique
+  info        String
+}

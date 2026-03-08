@@ -108,3 +108,13 @@ export const fetchServiceBlogItemDetails = async (serviceBlogItemId:string) => {
     } 
     return serviceBlogItem;
 };
+
+export const fetchAllServiceInfo = async() =>{
+    return await db.serviceInfo.findMany({
+    select: {
+                id: true,
+                title: true,
+                info: true,
+            },  
+        })
+}

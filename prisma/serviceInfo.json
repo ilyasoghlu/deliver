@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Good To Know",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales purus vel nunc elementum rhoncus. Praesent neque metus, mollis sit amet convallis ut, tempus porta arcu. Phasellus accumsan facilisis viverra. Sed a velit sit amet nunc aliquam consectetur."
+    },
+    {
+        "title": "Cool Feature",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales purus vel nunc elementum rhoncus. Praesent neque metus, mollis sit amet convallis ut, tempus porta arcu. Phasellus accumsan facilisis viverra. Sed a velit sit amet nunc aliquam consectetur."
+    },
+    {
+        "title": "Something Else To Know",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sodales purus vel nunc elementum rhoncus. Praesent neque metus, mollis sit amet convallis ut, tempus porta arcu. Phasellus accumsan facilisis viverra. Sed a velit sit amet nunc aliquam consectetur."
+    }
+]

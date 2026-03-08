@@ -15,7 +15,7 @@ function TeamMemberCard({members}:{members:OurTeam[]}) {
         return (
           <article 
             key={memberId} 
-            className='group relative' >
+            className='group relative w-full md:w-[24%]' >
               <Link href={`/about/${memberId}`}>
           <Card
             className="transform 
@@ -42,11 +42,11 @@ function TeamMemberCard({members}:{members:OurTeam[]}) {
                   />
                 </div>
                 <div className='mt-4 text-center' >
-                  <h3>
+                  <h2 className='font-bold'>
                     {firstName} {lastName}
-                  </h3>
-                  <h4>{position}</h4>
-                  <p>{description}</p>
+                  </h2>
+                  <h5>{position}</h5>
+                  <p className='text-muted-foreground'>{description}</p>
                 </div>
               <CardDescription />
             </CardContent>
