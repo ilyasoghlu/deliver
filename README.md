@@ -151,7 +151,36 @@ npm run dev
                 - create a fetch function in the actions file
                     - import redirect from next/navigation  (important get it from next/navigation)
                     - it will be an async function 
-                    - gets productId as props 
+                    - gets productId as props
+        - Post functionality and db elements 
+            - create model in schema file with following values 
+                - id String @id @default(uuid()) @db.Uuid
+                - title String
+                - description String
+                - image String
+                - createdAt     DateTime @default(now())
+                - updatedAt     DateTime @updatedAt
+                - clerkId       String   @default(uuid()) @db.Uuid
+                - category String
+                - rating String  
+            - create newsPost.json file (here will be more than 100 news items)
+            - create category following functionals 
+                - Last Posts
+                    - create function for get the last 20 news by date
+                - Archives by month
+                    - create function for getting news by creating date  
+                - Archive by Category
+                    - create function for getting news by category
+                - Popular Posts
+                    - create function for getting news by rating
+                - create total news numbers for every 
+            - create pagination component 
+        - Blog details page
+            - create rating function 
+            - create comments number and show comments content
+            - create add comment area and function 
+                - comments must have reply function, created date, created by (who wrote comment), also add comments from facebook and so functions  
+            
     - Other pages
     - Contact Us
         - create static information 
