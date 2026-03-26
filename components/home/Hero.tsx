@@ -4,7 +4,7 @@ import HeroCarousel from './HeroCarousel'
 
 function Hero() {
   return (
-    <section className='flex flex-wrap items-center justify-center py-12'>
+    <section className='flex  items-center justify-center py-12'>
       <Container>
         <HeroCarousel />
       </Container>

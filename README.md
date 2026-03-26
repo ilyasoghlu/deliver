@@ -126,7 +126,21 @@ npm run dev
                     - Card, CardContent
                     - Image 
                     - Link 
-            - ServiceBlogItem 
+            - ServiceBlogDetail 
+                - create fetchServiceBlogDetail function in actions  
+                - create an id folder and page in services folder(page), it will be an async function. It gets params 
+                    - in page file
+                        - import 
+                            - fetchServiceBlogItemDetails function 
+                            - Images from next/image
+                            
+                - create a ServiceBlogDetail component (maybe don't need)
+            - ServicePriceCard component 
+                - it will be a dynamic component - information will be different 
+                - on first step you will map the array as items 
+                - on the second step you will skip already used values and boolean values (if value will be empty it will not appear on the site as empty line)
+                - for card give a static height css 
+
 
     - Archive
     - Blog
@@ -207,6 +221,8 @@ if (segments[0] === "products" && segments[1]) {
                 - HeroCarousel
         - HeroCarrousel
             - This component does not completed, please find an idea about it 
+            -install 
+                - npm install embla-carousel-autoplay
             - imports:
                 - Carousel,
                 - CarouselContent,
@@ -238,9 +254,18 @@ if (segments[0] === "products" && segments[1]) {
                 - Button from ui/button 
                 - Link from next/link
                 - Links
-            - create: 
-                - link file - utils/links 
-        
+                    - create: 
+                        - link file - utils/links 
+                    - import usePathname for active class 
+                    - create a variable as isActive( const isActive = pathname === array.link )
+                    - in mapping functionality create active class, 
+                        - it will be dynamic class:
+                            className={`
+                                        uppercase font-bold cursor-pointer
+                                        hover:text-emerald-600
+                                        ${isActive ? "text-emerald-600" : ""}
+                                        `}
+
         - Logo
         - DarkMode
             - client side component
@@ -341,6 +366,15 @@ if (segments[0] === "products" && segments[1]) {
             - contains special functions:
                 - fetchFeaturedProducts()  
                 - fetchAllProducts()
+                - fetchAllServiceInfo()
+                - fetchServiceBlogItemDetails()
+                - fetchAllServiceBlog()
+                - fetchMemberDetails()
+                - fetchOurTeam()
+                - fetchBlogDetails()
+                - fetchAllMedia()
+                - fetchProductDetails()
+                - fetchFeaturedProducts()
         - format file 
             -  create a currency format function 
 

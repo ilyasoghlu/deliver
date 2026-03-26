@@ -12,7 +12,6 @@ export const fetchFeaturedProducts = async() =>{
     return products
 }
 
-
 export const fetchAllProducts = async() =>{
     const products = await db.product.findMany({
         orderBy: {
@@ -31,10 +30,6 @@ export const fetchProductDetails = async(productId:string) =>{
     if(!product) redirect('/portfolio')
         return product
 }
-
-
-
-
 
 export const fetchAllMedia = async() =>{
     const blog = await db.mediaItem.findMany({
@@ -56,8 +51,6 @@ export const fetchBlogDetails = async (mediaItemId:string) =>{
 }
 
 // Our Team functionality
-
-
 export const fetchOurTeam = async () => {
     return await db.ourTeam.findMany({
         select: {
@@ -82,8 +75,6 @@ export const fetchMemberDetails = async (memberId:string) =>{
         return member
 }
 
-
-
 export const fetchAllServiceBlog = async() =>{
     return await db.serviceBlogItem.findMany({
     select: {
@@ -95,9 +86,7 @@ export const fetchAllServiceBlog = async() =>{
             },
             
         })
-        console.log("APP DATABASE_URL:", process.env.DATABASE_URL);
 }
-
 
 export const fetchServiceBlogItemDetails = async (serviceBlogItemId:string) => {
     const serviceBlogItem = await db.serviceBlogItem.findUnique({
