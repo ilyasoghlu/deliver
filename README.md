@@ -197,16 +197,20 @@ npm run dev
                     - @@unique([platform, externalId])
                         
             - create newsPost.json file (here will be more than 100 news items)
-            - create category following functionals 
-                - Last Posts
+            - create category following components and functionals 
+                - Last Posts 
+                    - create LastPosts component
                     - create function for get the last 20 news by date
                 - Archives by month
+                    - create MonthlyPosts
                     - create function for getting news by creating date  
                 - Archive by Category
+                    - create PostCategories
                     - create function for getting news by category
                 - Popular Posts
+                    - create PopularPosts
                     - create function for getting news by rating
-                - create total news numbers for every 
+                - create total news numbers for every categorie 
             - create pagination component 
         - Blog details page
             - create rating function 

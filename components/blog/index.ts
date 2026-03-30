@@ -9,8 +9,9 @@ import MediaCard from "./MediaCard";
 import NewsType from "./NewsType";
 import VideoContent from "./VideoContent";
 import PopularPosts from "./PopularPosts";
-
-
+import LastPosts from "./LastPosts";
+import MonthlyPosts from "./MonthlyPosts";
+import PostCategories from "./PostCategories";
 
 export {
     AudionContent,
@@ -24,4 +25,7 @@ export {
     NewsType,
     VideoContent,
     PopularPosts,
+    LastPosts,
+    MonthlyPosts,
+    PostCategories
 }

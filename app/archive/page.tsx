@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { Separator } from '@/components/ui/separator';
-import { PopularPosts } from '@/components/blog';
+import { LastPosts, MonthlyPosts, PopularPosts, PostCategories } from '@/components/blog';
 
 function ArchivePage() {
     return (
@@ -13,18 +13,9 @@ function ArchivePage() {
               <div className="py-8">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo ligula, interdum ut lobortis quis, interdum vitae metus. Proin fringilla metus non nulla cursus, sit amet rutrum est pretium.</p>
               </div>
-              <div>
-                <h5 className="uppercase font-semibold">Last 20 posts</h5>
-                <div className="mt-4 p-4">Post Contents</div>
-              </div>
-              <div>
-                <h5 className="uppercase font-semibold">Archive by Month</h5>
-                <div className="mt-4 p-4">Monthly Content</div>
-              </div>
-              <div>
-                <h5 className="uppercase font-semibold">Archive by Category</h5>
-                <div className="mt-4 p-4">Categories</div>
-              </div>
+                <LastPosts />
+                <MonthlyPosts />
+                <PostCategories />
             </div>
 
 
