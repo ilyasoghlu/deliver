@@ -1,0 +1,3482 @@
+[
+  {
+    "title": "React optimization guide",
+    "description": "Sample generated article description.",
+    "image": "/images/news-1.webp",
+    "category": "frontend",
+    "avgRating": 4.9,
+    "ratingCount": 4,
+    "createdAt": "2026-03-20T14:00:00Z",
+    "updatedAt": "2026-03-03T17:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_3",
+        "createdAt": "2026-03-19T03:00:00Z",
+        "updatedAt": "2026-03-10T09:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "175209",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-18T04:00:00Z",
+        "updatedAt": "2026-03-15T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "React optimization guide",
+    "description": "Sample generated article description.",
+    "image": "/images/news-2.webp",
+    "category": "programming",
+    "avgRating": 3.8,
+    "ratingCount": 23,
+    "createdAt": "2026-03-03T07:00:00Z",
+    "updatedAt": "2026-03-12T03:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_44",
+        "createdAt": "2026-03-05T03:00:00Z",
+        "updatedAt": "2026-03-16T15:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "236605",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-09T07:00:00Z",
+        "updatedAt": "2026-03-16T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-3.webp",
+    "category": "database",
+    "avgRating": 4.9,
+    "ratingCount": 17,
+    "createdAt": "2026-03-25T09:00:00Z",
+    "updatedAt": "2026-03-17T19:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_7",
+        "createdAt": "2026-03-05T05:00:00Z",
+        "updatedAt": "2026-03-06T16:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "776919",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-13T23:00:00Z",
+        "updatedAt": "2026-03-05T05:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "CSS architecture patterns",
+    "description": "Sample generated article description.",
+    "image": "/images/news-4.webp",
+    "category": "programming",
+    "avgRating": 4.7,
+    "ratingCount": 25,
+    "createdAt": "2026-03-21T13:00:00Z",
+    "updatedAt": "2026-03-24T02:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_31",
+        "createdAt": "2026-03-04T18:00:00Z",
+        "updatedAt": "2026-03-26T16:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "597039",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-21T18:00:00Z",
+        "updatedAt": "2026-03-22T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "CSS architecture patterns",
+    "description": "Sample generated article description.",
+    "image": "/images/news-5.webp",
+    "category": "database",
+    "avgRating": 4.1,
+    "ratingCount": 13,
+    "createdAt": "2026-03-15T13:00:00Z",
+    "updatedAt": "2026-03-13T12:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_36",
+        "createdAt": "2026-03-06T02:00:00Z",
+        "updatedAt": "2026-03-11T22:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "414174",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-03T03:00:00Z",
+        "updatedAt": "2026-03-15T07:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Frontend testing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-6.webp",
+    "category": "devops",
+    "avgRating": 4.4,
+    "ratingCount": 19,
+    "createdAt": "2026-03-12T23:00:00Z",
+    "updatedAt": "2026-03-23T02:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_6",
+        "createdAt": "2026-03-15T03:00:00Z",
+        "updatedAt": "2026-03-22T05:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "657779",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-11T01:00:00Z",
+        "updatedAt": "2026-03-04T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "CSS architecture patterns",
+    "description": "Sample generated article description.",
+    "image": "/images/news-7.webp",
+    "category": "devops",
+    "avgRating": 4.6,
+    "ratingCount": 37,
+    "createdAt": "2026-03-13T06:00:00Z",
+    "updatedAt": "2026-03-03T13:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_29",
+        "createdAt": "2026-03-11T18:00:00Z",
+        "updatedAt": "2026-03-15T20:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "914108",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-15T17:00:00Z",
+        "updatedAt": "2026-03-25T21:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-8.webp",
+    "category": "database",
+    "avgRating": 5.0,
+    "ratingCount": 3,
+    "createdAt": "2026-03-09T08:00:00Z",
+    "updatedAt": "2026-03-13T05:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_3",
+        "createdAt": "2026-03-19T07:00:00Z",
+        "updatedAt": "2026-03-14T14:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "533910",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-24T09:00:00Z",
+        "updatedAt": "2026-03-10T05:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Docker workflow improvements",
+    "description": "Sample generated article description.",
+    "image": "/images/news-9.webp",
+    "category": "database",
+    "avgRating": 4.0,
+    "ratingCount": 4,
+    "createdAt": "2026-03-05T16:00:00Z",
+    "updatedAt": "2026-03-01T16:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_1",
+        "createdAt": "2026-03-14T10:00:00Z",
+        "updatedAt": "2026-03-26T09:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "857832",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-26T00:00:00Z",
+        "updatedAt": "2026-03-21T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "AI boosts developer productivity",
+    "description": "Sample generated article description.",
+    "image": "/images/news-10.webp",
+    "category": "technology",
+    "avgRating": 4.5,
+    "ratingCount": 5,
+    "createdAt": "2026-03-05T23:00:00Z",
+    "updatedAt": "2026-03-10T22:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_16",
+        "createdAt": "2026-03-18T01:00:00Z",
+        "updatedAt": "2026-03-11T10:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "214354",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-20T18:00:00Z",
+        "updatedAt": "2026-03-03T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "CSS architecture patterns",
+    "description": "Sample generated article description.",
+    "image": "/images/news-1.webp",
+    "category": "devops",
+    "avgRating": 4.9,
+    "ratingCount": 22,
+    "createdAt": "2026-03-03T15:00:00Z",
+    "updatedAt": "2026-03-19T20:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_20",
+        "createdAt": "2026-03-25T13:00:00Z",
+        "updatedAt": "2026-03-10T07:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "816033",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-02T22:00:00Z",
+        "updatedAt": "2026-03-05T21:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "API security basics",
+    "description": "Sample generated article description.",
+    "image": "/images/news-2.webp",
+    "category": "frontend",
+    "avgRating": 4.6,
+    "ratingCount": 37,
+    "createdAt": "2026-03-11T09:00:00Z",
+    "updatedAt": "2026-03-11T00:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_40",
+        "createdAt": "2026-03-21T15:00:00Z",
+        "updatedAt": "2026-03-16T15:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "170435",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-25T12:00:00Z",
+        "updatedAt": "2026-03-11T06:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-3.webp",
+    "category": "frontend",
+    "avgRating": 4.2,
+    "ratingCount": 18,
+    "createdAt": "2026-03-05T12:00:00Z",
+    "updatedAt": "2026-03-09T12:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_47",
+        "createdAt": "2026-03-22T01:00:00Z",
+        "updatedAt": "2026-03-26T08:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "122061",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-13T00:00:00Z",
+        "updatedAt": "2026-03-13T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "React optimization guide",
+    "description": "Sample generated article description.",
+    "image": "/images/news-4.webp",
+    "category": "ai",
+    "avgRating": 4.5,
+    "ratingCount": 37,
+    "createdAt": "2026-03-24T21:00:00Z",
+    "updatedAt": "2026-03-06T14:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_44",
+        "createdAt": "2026-03-14T22:00:00Z",
+        "updatedAt": "2026-03-02T14:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "413706",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-16T12:00:00Z",
+        "updatedAt": "2026-03-13T03:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-5.webp",
+    "category": "technology",
+    "avgRating": 4.2,
+    "ratingCount": 29,
+    "createdAt": "2026-03-07T18:00:00Z",
+    "updatedAt": "2026-03-03T14:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_26",
+        "createdAt": "2026-03-19T11:00:00Z",
+        "updatedAt": "2026-03-22T05:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "814530",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-12T19:00:00Z",
+        "updatedAt": "2026-03-13T14:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-6.webp",
+    "category": "ai",
+    "avgRating": 4.3,
+    "ratingCount": 39,
+    "createdAt": "2026-03-09T21:00:00Z",
+    "updatedAt": "2026-03-13T08:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_40",
+        "createdAt": "2026-03-07T13:00:00Z",
+        "updatedAt": "2026-03-24T17:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "294641",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-24T02:00:00Z",
+        "updatedAt": "2026-03-15T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Frontend testing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-7.webp",
+    "category": "ai",
+    "avgRating": 3.9,
+    "ratingCount": 40,
+    "createdAt": "2026-03-02T13:00:00Z",
+    "updatedAt": "2026-03-19T03:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_46",
+        "createdAt": "2026-03-23T01:00:00Z",
+        "updatedAt": "2026-03-18T22:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "555935",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-25T04:00:00Z",
+        "updatedAt": "2026-03-20T22:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-8.webp",
+    "category": "backend",
+    "avgRating": 4.9,
+    "ratingCount": 26,
+    "createdAt": "2026-03-22T17:00:00Z",
+    "updatedAt": "2026-03-19T12:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_6",
+        "createdAt": "2026-03-11T22:00:00Z",
+        "updatedAt": "2026-03-15T09:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "543701",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-22T19:00:00Z",
+        "updatedAt": "2026-03-10T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-9.webp",
+    "category": "technology",
+    "avgRating": 4.2,
+    "ratingCount": 8,
+    "createdAt": "2026-03-19T22:00:00Z",
+    "updatedAt": "2026-03-20T09:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_24",
+        "createdAt": "2026-03-21T03:00:00Z",
+        "updatedAt": "2026-03-13T08:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "198887",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-15T01:00:00Z",
+        "updatedAt": "2026-03-18T03:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-10.webp",
+    "category": "programming",
+    "avgRating": 4.7,
+    "ratingCount": 17,
+    "createdAt": "2026-03-16T15:00:00Z",
+    "updatedAt": "2026-03-07T12:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_23",
+        "createdAt": "2026-03-07T09:00:00Z",
+        "updatedAt": "2026-03-11T13:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "498455",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-04T08:00:00Z",
+        "updatedAt": "2026-03-24T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-1.webp",
+    "category": "technology",
+    "avgRating": 4.4,
+    "ratingCount": 27,
+    "createdAt": "2026-03-26T03:00:00Z",
+    "updatedAt": "2026-03-17T09:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_24",
+        "createdAt": "2026-03-22T20:00:00Z",
+        "updatedAt": "2026-03-23T16:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "473550",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-16T21:00:00Z",
+        "updatedAt": "2026-03-16T13:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-2.webp",
+    "category": "frontend",
+    "avgRating": 4.6,
+    "ratingCount": 10,
+    "createdAt": "2026-03-12T01:00:00Z",
+    "updatedAt": "2026-03-11T03:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_16",
+        "createdAt": "2026-03-24T04:00:00Z",
+        "updatedAt": "2026-03-21T17:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "601194",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-04T08:00:00Z",
+        "updatedAt": "2026-03-16T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "CSS architecture patterns",
+    "description": "Sample generated article description.",
+    "image": "/images/news-3.webp",
+    "category": "frontend",
+    "avgRating": 4.4,
+    "ratingCount": 35,
+    "createdAt": "2026-03-05T08:00:00Z",
+    "updatedAt": "2026-03-23T09:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_31",
+        "createdAt": "2026-03-06T20:00:00Z",
+        "updatedAt": "2026-03-17T16:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "977064",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-16T23:00:00Z",
+        "updatedAt": "2026-03-22T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Frontend testing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-4.webp",
+    "category": "devops",
+    "avgRating": 4.3,
+    "ratingCount": 15,
+    "createdAt": "2026-03-24T09:00:00Z",
+    "updatedAt": "2026-03-26T18:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_26",
+        "createdAt": "2026-03-26T05:00:00Z",
+        "updatedAt": "2026-03-05T21:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "946615",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-09T00:00:00Z",
+        "updatedAt": "2026-03-23T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-5.webp",
+    "category": "frontend",
+    "avgRating": 4.6,
+    "ratingCount": 17,
+    "createdAt": "2026-03-21T00:00:00Z",
+    "updatedAt": "2026-03-02T17:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_45",
+        "createdAt": "2026-03-24T15:00:00Z",
+        "updatedAt": "2026-03-26T21:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "715207",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-09T05:00:00Z",
+        "updatedAt": "2026-03-25T15:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "CSS architecture patterns",
+    "description": "Sample generated article description.",
+    "image": "/images/news-6.webp",
+    "category": "backend",
+    "avgRating": 3.9,
+    "ratingCount": 22,
+    "createdAt": "2026-03-24T11:00:00Z",
+    "updatedAt": "2026-03-09T08:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_7",
+        "createdAt": "2026-03-15T20:00:00Z",
+        "updatedAt": "2026-03-18T17:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "552814",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-08T21:00:00Z",
+        "updatedAt": "2026-03-19T04:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-7.webp",
+    "category": "devops",
+    "avgRating": 4.6,
+    "ratingCount": 16,
+    "createdAt": "2026-03-14T13:00:00Z",
+    "updatedAt": "2026-03-20T08:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_35",
+        "createdAt": "2026-03-02T00:00:00Z",
+        "updatedAt": "2026-03-20T05:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "139506",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-20T07:00:00Z",
+        "updatedAt": "2026-03-01T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "AI boosts developer productivity",
+    "description": "Sample generated article description.",
+    "image": "/images/news-8.webp",
+    "category": "ai",
+    "avgRating": 4.8,
+    "ratingCount": 26,
+    "createdAt": "2026-03-25T01:00:00Z",
+    "updatedAt": "2026-03-09T08:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_10",
+        "createdAt": "2026-03-18T15:00:00Z",
+        "updatedAt": "2026-03-13T21:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "534800",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-05T06:00:00Z",
+        "updatedAt": "2026-03-19T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-9.webp",
+    "category": "technology",
+    "avgRating": 4.4,
+    "ratingCount": 23,
+    "createdAt": "2026-03-09T23:00:00Z",
+    "updatedAt": "2026-03-26T02:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_8",
+        "createdAt": "2026-03-07T23:00:00Z",
+        "updatedAt": "2026-03-08T15:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "371367",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-14T05:00:00Z",
+        "updatedAt": "2026-03-26T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-10.webp",
+    "category": "technology",
+    "avgRating": 4.6,
+    "ratingCount": 26,
+    "createdAt": "2026-03-17T10:00:00Z",
+    "updatedAt": "2026-03-06T06:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_44",
+        "createdAt": "2026-03-11T07:00:00Z",
+        "updatedAt": "2026-03-18T19:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "769338",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-26T05:00:00Z",
+        "updatedAt": "2026-03-04T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-1.webp",
+    "category": "devops",
+    "avgRating": 4.6,
+    "ratingCount": 3,
+    "createdAt": "2026-03-15T02:00:00Z",
+    "updatedAt": "2026-03-26T01:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_43",
+        "createdAt": "2026-03-09T14:00:00Z",
+        "updatedAt": "2026-03-11T22:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "949161",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-08T03:00:00Z",
+        "updatedAt": "2026-03-02T20:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-2.webp",
+    "category": "database",
+    "avgRating": 4.6,
+    "ratingCount": 35,
+    "createdAt": "2026-03-26T04:00:00Z",
+    "updatedAt": "2026-03-06T02:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_7",
+        "createdAt": "2026-03-25T05:00:00Z",
+        "updatedAt": "2026-03-17T21:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "231429",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-09T18:00:00Z",
+        "updatedAt": "2026-03-24T21:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-3.webp",
+    "category": "backend",
+    "avgRating": 3.9,
+    "ratingCount": 34,
+    "createdAt": "2026-03-04T03:00:00Z",
+    "updatedAt": "2026-03-01T13:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_7",
+        "createdAt": "2026-03-10T08:00:00Z",
+        "updatedAt": "2026-03-12T10:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "678074",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-17T06:00:00Z",
+        "updatedAt": "2026-03-10T07:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "AI boosts developer productivity",
+    "description": "Sample generated article description.",
+    "image": "/images/news-4.webp",
+    "category": "frontend",
+    "avgRating": 4.6,
+    "ratingCount": 15,
+    "createdAt": "2026-03-19T10:00:00Z",
+    "updatedAt": "2026-03-01T16:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_41",
+        "createdAt": "2026-03-17T05:00:00Z",
+        "updatedAt": "2026-03-20T13:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "765452",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-21T11:00:00Z",
+        "updatedAt": "2026-03-18T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-5.webp",
+    "category": "database",
+    "avgRating": 4.8,
+    "ratingCount": 7,
+    "createdAt": "2026-03-13T06:00:00Z",
+    "updatedAt": "2026-03-14T22:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_37",
+        "createdAt": "2026-03-24T20:00:00Z",
+        "updatedAt": "2026-03-19T05:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "518421",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-01T04:00:00Z",
+        "updatedAt": "2026-03-10T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Docker workflow improvements",
+    "description": "Sample generated article description.",
+    "image": "/images/news-6.webp",
+    "category": "programming",
+    "avgRating": 4.5,
+    "ratingCount": 30,
+    "createdAt": "2026-03-18T08:00:00Z",
+    "updatedAt": "2026-03-14T04:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_41",
+        "createdAt": "2026-03-22T01:00:00Z",
+        "updatedAt": "2026-03-02T09:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "766653",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-04T03:00:00Z",
+        "updatedAt": "2026-03-11T14:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "API security basics",
+    "description": "Sample generated article description.",
+    "image": "/images/news-7.webp",
+    "category": "technology",
+    "avgRating": 4.8,
+    "ratingCount": 40,
+    "createdAt": "2026-03-21T22:00:00Z",
+    "updatedAt": "2026-03-05T22:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_25",
+        "createdAt": "2026-03-12T19:00:00Z",
+        "updatedAt": "2026-03-13T05:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "560277",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-20T16:00:00Z",
+        "updatedAt": "2026-03-17T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "CSS architecture patterns",
+    "description": "Sample generated article description.",
+    "image": "/images/news-8.webp",
+    "category": "programming",
+    "avgRating": 5.0,
+    "ratingCount": 12,
+    "createdAt": "2026-03-23T22:00:00Z",
+    "updatedAt": "2026-03-08T23:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_25",
+        "createdAt": "2026-03-14T01:00:00Z",
+        "updatedAt": "2026-03-10T12:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "603607",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-13T17:00:00Z",
+        "updatedAt": "2026-03-05T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-9.webp",
+    "category": "backend",
+    "avgRating": 4.4,
+    "ratingCount": 26,
+    "createdAt": "2026-03-26T08:00:00Z",
+    "updatedAt": "2026-03-08T23:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_45",
+        "createdAt": "2026-03-01T02:00:00Z",
+        "updatedAt": "2026-03-14T10:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "739936",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-09T09:00:00Z",
+        "updatedAt": "2026-03-16T11:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-10.webp",
+    "category": "frontend",
+    "avgRating": 4.3,
+    "ratingCount": 20,
+    "createdAt": "2026-03-24T07:00:00Z",
+    "updatedAt": "2026-03-06T08:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_21",
+        "createdAt": "2026-03-03T14:00:00Z",
+        "updatedAt": "2026-03-11T21:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "819346",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-13T07:00:00Z",
+        "updatedAt": "2026-03-07T15:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-1.webp",
+    "category": "technology",
+    "avgRating": 4.0,
+    "ratingCount": 12,
+    "createdAt": "2026-03-07T22:00:00Z",
+    "updatedAt": "2026-03-26T17:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_40",
+        "createdAt": "2026-03-22T06:00:00Z",
+        "updatedAt": "2026-03-02T15:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "916214",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-08T08:00:00Z",
+        "updatedAt": "2026-03-14T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "React optimization guide",
+    "description": "Sample generated article description.",
+    "image": "/images/news-2.webp",
+    "category": "backend",
+    "avgRating": 4.7,
+    "ratingCount": 35,
+    "createdAt": "2026-03-21T10:00:00Z",
+    "updatedAt": "2026-03-14T11:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_11",
+        "createdAt": "2026-03-24T18:00:00Z",
+        "updatedAt": "2026-03-24T01:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "548938",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-10T16:00:00Z",
+        "updatedAt": "2026-03-22T21:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "CSS architecture patterns",
+    "description": "Sample generated article description.",
+    "image": "/images/news-3.webp",
+    "category": "ai",
+    "avgRating": 4.7,
+    "ratingCount": 18,
+    "createdAt": "2026-03-06T16:00:00Z",
+    "updatedAt": "2026-03-03T03:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_17",
+        "createdAt": "2026-03-04T01:00:00Z",
+        "updatedAt": "2026-03-26T01:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "249600",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-26T04:00:00Z",
+        "updatedAt": "2026-03-04T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "API security basics",
+    "description": "Sample generated article description.",
+    "image": "/images/news-4.webp",
+    "category": "ai",
+    "avgRating": 4.2,
+    "ratingCount": 11,
+    "createdAt": "2026-03-21T04:00:00Z",
+    "updatedAt": "2026-03-22T20:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_43",
+        "createdAt": "2026-03-14T20:00:00Z",
+        "updatedAt": "2026-03-08T15:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "501537",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-21T23:00:00Z",
+        "updatedAt": "2026-03-23T23:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-5.webp",
+    "category": "database",
+    "avgRating": 3.9,
+    "ratingCount": 30,
+    "createdAt": "2026-03-23T06:00:00Z",
+    "updatedAt": "2026-03-18T04:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_39",
+        "createdAt": "2026-03-17T14:00:00Z",
+        "updatedAt": "2026-03-12T08:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "876994",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-16T17:00:00Z",
+        "updatedAt": "2026-03-15T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "React optimization guide",
+    "description": "Sample generated article description.",
+    "image": "/images/news-6.webp",
+    "category": "technology",
+    "avgRating": 4.4,
+    "ratingCount": 29,
+    "createdAt": "2026-03-10T03:00:00Z",
+    "updatedAt": "2026-03-15T19:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_43",
+        "createdAt": "2026-03-13T11:00:00Z",
+        "updatedAt": "2026-03-24T01:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "633999",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-17T11:00:00Z",
+        "updatedAt": "2026-03-18T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "API security basics",
+    "description": "Sample generated article description.",
+    "image": "/images/news-7.webp",
+    "category": "programming",
+    "avgRating": 4.7,
+    "ratingCount": 3,
+    "createdAt": "2026-03-03T19:00:00Z",
+    "updatedAt": "2026-03-09T21:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_39",
+        "createdAt": "2026-03-23T10:00:00Z",
+        "updatedAt": "2026-03-14T00:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "607102",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-23T13:00:00Z",
+        "updatedAt": "2026-03-02T03:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-8.webp",
+    "category": "programming",
+    "avgRating": 4.6,
+    "ratingCount": 21,
+    "createdAt": "2026-03-05T22:00:00Z",
+    "updatedAt": "2026-03-23T07:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_3",
+        "createdAt": "2026-03-26T10:00:00Z",
+        "updatedAt": "2026-03-19T04:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "405774",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-08T09:00:00Z",
+        "updatedAt": "2026-03-06T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-9.webp",
+    "category": "technology",
+    "avgRating": 4.2,
+    "ratingCount": 7,
+    "createdAt": "2026-03-21T00:00:00Z",
+    "updatedAt": "2026-03-13T10:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_13",
+        "createdAt": "2026-03-18T04:00:00Z",
+        "updatedAt": "2026-03-03T21:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "771596",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-25T20:00:00Z",
+        "updatedAt": "2026-03-08T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-10.webp",
+    "category": "devops",
+    "avgRating": 5.0,
+    "ratingCount": 20,
+    "createdAt": "2026-03-05T00:00:00Z",
+    "updatedAt": "2026-03-13T18:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_32",
+        "createdAt": "2026-03-17T17:00:00Z",
+        "updatedAt": "2026-03-26T08:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "719703",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-15T08:00:00Z",
+        "updatedAt": "2026-03-03T03:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-1.webp",
+    "category": "backend",
+    "avgRating": 4.4,
+    "ratingCount": 37,
+    "createdAt": "2026-03-19T15:00:00Z",
+    "updatedAt": "2026-03-06T15:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_29",
+        "createdAt": "2026-03-10T04:00:00Z",
+        "updatedAt": "2026-03-07T12:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "427318",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-09T21:00:00Z",
+        "updatedAt": "2026-03-11T06:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-2.webp",
+    "category": "frontend",
+    "avgRating": 3.9,
+    "ratingCount": 14,
+    "createdAt": "2026-03-24T19:00:00Z",
+    "updatedAt": "2026-03-15T08:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_33",
+        "createdAt": "2026-03-09T20:00:00Z",
+        "updatedAt": "2026-03-20T09:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "662713",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-02T06:00:00Z",
+        "updatedAt": "2026-03-01T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-3.webp",
+    "category": "technology",
+    "avgRating": 5.0,
+    "ratingCount": 30,
+    "createdAt": "2026-03-24T12:00:00Z",
+    "updatedAt": "2026-03-07T12:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_15",
+        "createdAt": "2026-03-19T09:00:00Z",
+        "updatedAt": "2026-03-22T06:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "809735",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-26T07:00:00Z",
+        "updatedAt": "2026-03-16T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-4.webp",
+    "category": "backend",
+    "avgRating": 4.1,
+    "ratingCount": 13,
+    "createdAt": "2026-03-10T00:00:00Z",
+    "updatedAt": "2026-03-20T17:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_33",
+        "createdAt": "2026-03-18T21:00:00Z",
+        "updatedAt": "2026-03-23T13:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "259239",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-10T17:00:00Z",
+        "updatedAt": "2026-03-25T01:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-5.webp",
+    "category": "database",
+    "avgRating": 4.5,
+    "ratingCount": 22,
+    "createdAt": "2026-03-24T05:00:00Z",
+    "updatedAt": "2026-03-23T01:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_5",
+        "createdAt": "2026-03-08T01:00:00Z",
+        "updatedAt": "2026-03-10T02:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "949100",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-07T21:00:00Z",
+        "updatedAt": "2026-03-01T05:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-6.webp",
+    "category": "devops",
+    "avgRating": 3.9,
+    "ratingCount": 13,
+    "createdAt": "2026-03-15T18:00:00Z",
+    "updatedAt": "2026-03-12T09:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_7",
+        "createdAt": "2026-03-14T12:00:00Z",
+        "updatedAt": "2026-03-12T09:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "411067",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-14T05:00:00Z",
+        "updatedAt": "2026-03-13T14:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "CSS architecture patterns",
+    "description": "Sample generated article description.",
+    "image": "/images/news-7.webp",
+    "category": "backend",
+    "avgRating": 4.6,
+    "ratingCount": 28,
+    "createdAt": "2026-03-10T09:00:00Z",
+    "updatedAt": "2026-03-09T04:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_35",
+        "createdAt": "2026-03-24T12:00:00Z",
+        "updatedAt": "2026-03-06T12:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "352228",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-15T21:00:00Z",
+        "updatedAt": "2026-03-16T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-8.webp",
+    "category": "devops",
+    "avgRating": 4.7,
+    "ratingCount": 35,
+    "createdAt": "2026-03-04T02:00:00Z",
+    "updatedAt": "2026-03-09T06:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_29",
+        "createdAt": "2026-03-23T17:00:00Z",
+        "updatedAt": "2026-03-06T00:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "728722",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-11T10:00:00Z",
+        "updatedAt": "2026-03-04T14:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "API security basics",
+    "description": "Sample generated article description.",
+    "image": "/images/news-9.webp",
+    "category": "frontend",
+    "avgRating": 3.8,
+    "ratingCount": 40,
+    "createdAt": "2026-03-19T10:00:00Z",
+    "updatedAt": "2026-03-13T13:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_23",
+        "createdAt": "2026-03-20T04:00:00Z",
+        "updatedAt": "2026-03-14T08:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "344449",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-23T21:00:00Z",
+        "updatedAt": "2026-03-15T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-10.webp",
+    "category": "ai",
+    "avgRating": 3.9,
+    "ratingCount": 8,
+    "createdAt": "2026-03-26T17:00:00Z",
+    "updatedAt": "2026-03-17T07:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_29",
+        "createdAt": "2026-03-10T09:00:00Z",
+        "updatedAt": "2026-03-15T11:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "888133",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-23T08:00:00Z",
+        "updatedAt": "2026-03-13T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-1.webp",
+    "category": "backend",
+    "avgRating": 4.7,
+    "ratingCount": 16,
+    "createdAt": "2026-03-25T00:00:00Z",
+    "updatedAt": "2026-03-08T10:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_16",
+        "createdAt": "2026-03-18T03:00:00Z",
+        "updatedAt": "2026-03-23T18:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "379213",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-21T05:00:00Z",
+        "updatedAt": "2026-03-06T03:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-2.webp",
+    "category": "technology",
+    "avgRating": 4.8,
+    "ratingCount": 27,
+    "createdAt": "2026-03-17T20:00:00Z",
+    "updatedAt": "2026-03-15T17:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_49",
+        "createdAt": "2026-03-18T05:00:00Z",
+        "updatedAt": "2026-03-21T14:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "440176",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-19T14:00:00Z",
+        "updatedAt": "2026-03-25T20:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-3.webp",
+    "category": "database",
+    "avgRating": 4.3,
+    "ratingCount": 28,
+    "createdAt": "2026-03-13T00:00:00Z",
+    "updatedAt": "2026-03-13T02:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_5",
+        "createdAt": "2026-03-19T01:00:00Z",
+        "updatedAt": "2026-03-07T05:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "475554",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-09T05:00:00Z",
+        "updatedAt": "2026-03-06T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-4.webp",
+    "category": "backend",
+    "avgRating": 4.4,
+    "ratingCount": 21,
+    "createdAt": "2026-03-13T01:00:00Z",
+    "updatedAt": "2026-03-06T16:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_20",
+        "createdAt": "2026-03-08T22:00:00Z",
+        "updatedAt": "2026-03-02T06:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "784496",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-22T19:00:00Z",
+        "updatedAt": "2026-03-21T03:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Frontend testing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-5.webp",
+    "category": "backend",
+    "avgRating": 4.7,
+    "ratingCount": 39,
+    "createdAt": "2026-03-04T14:00:00Z",
+    "updatedAt": "2026-03-13T20:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_50",
+        "createdAt": "2026-03-22T06:00:00Z",
+        "updatedAt": "2026-03-18T08:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "780332",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-04T03:00:00Z",
+        "updatedAt": "2026-03-02T23:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-6.webp",
+    "category": "frontend",
+    "avgRating": 4.7,
+    "ratingCount": 13,
+    "createdAt": "2026-03-06T14:00:00Z",
+    "updatedAt": "2026-03-13T07:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_49",
+        "createdAt": "2026-03-20T06:00:00Z",
+        "updatedAt": "2026-03-26T21:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "115424",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-13T03:00:00Z",
+        "updatedAt": "2026-03-12T01:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-7.webp",
+    "category": "backend",
+    "avgRating": 3.9,
+    "ratingCount": 20,
+    "createdAt": "2026-03-04T07:00:00Z",
+    "updatedAt": "2026-03-12T01:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_12",
+        "createdAt": "2026-03-13T17:00:00Z",
+        "updatedAt": "2026-03-03T04:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "758731",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-23T10:00:00Z",
+        "updatedAt": "2026-03-26T21:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-8.webp",
+    "category": "technology",
+    "avgRating": 4.7,
+    "ratingCount": 27,
+    "createdAt": "2026-03-01T18:00:00Z",
+    "updatedAt": "2026-03-23T10:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_47",
+        "createdAt": "2026-03-22T09:00:00Z",
+        "updatedAt": "2026-03-20T04:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "838316",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-06T23:00:00Z",
+        "updatedAt": "2026-03-25T15:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-9.webp",
+    "category": "programming",
+    "avgRating": 3.9,
+    "ratingCount": 12,
+    "createdAt": "2026-03-26T07:00:00Z",
+    "updatedAt": "2026-03-06T13:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_50",
+        "createdAt": "2026-03-16T10:00:00Z",
+        "updatedAt": "2026-03-10T09:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "426265",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-11T23:00:00Z",
+        "updatedAt": "2026-03-05T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Frontend testing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-10.webp",
+    "category": "backend",
+    "avgRating": 4.4,
+    "ratingCount": 36,
+    "createdAt": "2026-03-15T22:00:00Z",
+    "updatedAt": "2026-03-20T23:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_37",
+        "createdAt": "2026-03-26T21:00:00Z",
+        "updatedAt": "2026-03-18T04:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "125503",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-13T00:00:00Z",
+        "updatedAt": "2026-03-24T11:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-1.webp",
+    "category": "backend",
+    "avgRating": 4.0,
+    "ratingCount": 35,
+    "createdAt": "2026-03-23T08:00:00Z",
+    "updatedAt": "2026-03-03T09:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_30",
+        "createdAt": "2026-03-24T12:00:00Z",
+        "updatedAt": "2026-03-18T17:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "207524",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-18T18:00:00Z",
+        "updatedAt": "2026-03-01T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-2.webp",
+    "category": "programming",
+    "avgRating": 4.6,
+    "ratingCount": 34,
+    "createdAt": "2026-03-26T11:00:00Z",
+    "updatedAt": "2026-03-13T17:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_35",
+        "createdAt": "2026-03-05T04:00:00Z",
+        "updatedAt": "2026-03-07T17:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "716448",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-24T23:00:00Z",
+        "updatedAt": "2026-03-16T21:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-3.webp",
+    "category": "backend",
+    "avgRating": 3.9,
+    "ratingCount": 3,
+    "createdAt": "2026-03-03T01:00:00Z",
+    "updatedAt": "2026-03-25T14:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_19",
+        "createdAt": "2026-03-04T03:00:00Z",
+        "updatedAt": "2026-03-17T05:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "866336",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-12T20:00:00Z",
+        "updatedAt": "2026-03-21T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "API security basics",
+    "description": "Sample generated article description.",
+    "image": "/images/news-4.webp",
+    "category": "backend",
+    "avgRating": 4.3,
+    "ratingCount": 3,
+    "createdAt": "2026-03-05T03:00:00Z",
+    "updatedAt": "2026-03-01T19:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_32",
+        "createdAt": "2026-03-02T05:00:00Z",
+        "updatedAt": "2026-03-05T07:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "289082",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-23T15:00:00Z",
+        "updatedAt": "2026-03-15T11:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Docker workflow improvements",
+    "description": "Sample generated article description.",
+    "image": "/images/news-5.webp",
+    "category": "ai",
+    "avgRating": 4.0,
+    "ratingCount": 38,
+    "createdAt": "2026-03-03T06:00:00Z",
+    "updatedAt": "2026-03-09T16:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_27",
+        "createdAt": "2026-03-15T09:00:00Z",
+        "updatedAt": "2026-03-05T19:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "672226",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-20T12:00:00Z",
+        "updatedAt": "2026-03-05T21:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "React optimization guide",
+    "description": "Sample generated article description.",
+    "image": "/images/news-6.webp",
+    "category": "devops",
+    "avgRating": 4.5,
+    "ratingCount": 29,
+    "createdAt": "2026-03-06T00:00:00Z",
+    "updatedAt": "2026-03-25T08:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_44",
+        "createdAt": "2026-03-25T19:00:00Z",
+        "updatedAt": "2026-03-22T04:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "180120",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-11T20:00:00Z",
+        "updatedAt": "2026-03-19T03:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Docker workflow improvements",
+    "description": "Sample generated article description.",
+    "image": "/images/news-7.webp",
+    "category": "ai",
+    "avgRating": 4.0,
+    "ratingCount": 22,
+    "createdAt": "2026-03-26T03:00:00Z",
+    "updatedAt": "2026-03-09T14:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_41",
+        "createdAt": "2026-03-15T06:00:00Z",
+        "updatedAt": "2026-03-24T10:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "455689",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-13T13:00:00Z",
+        "updatedAt": "2026-03-05T20:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Frontend testing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-8.webp",
+    "category": "devops",
+    "avgRating": 4.3,
+    "ratingCount": 40,
+    "createdAt": "2026-03-15T01:00:00Z",
+    "updatedAt": "2026-03-03T08:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_4",
+        "createdAt": "2026-03-20T16:00:00Z",
+        "updatedAt": "2026-03-16T19:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "360203",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-23T22:00:00Z",
+        "updatedAt": "2026-03-22T22:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Frontend testing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-9.webp",
+    "category": "backend",
+    "avgRating": 4.3,
+    "ratingCount": 20,
+    "createdAt": "2026-03-05T10:00:00Z",
+    "updatedAt": "2026-03-04T20:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_50",
+        "createdAt": "2026-03-24T09:00:00Z",
+        "updatedAt": "2026-03-01T09:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "111781",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-05T06:00:00Z",
+        "updatedAt": "2026-03-23T04:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "CSS architecture patterns",
+    "description": "Sample generated article description.",
+    "image": "/images/news-10.webp",
+    "category": "backend",
+    "avgRating": 4.1,
+    "ratingCount": 9,
+    "createdAt": "2026-03-08T15:00:00Z",
+    "updatedAt": "2026-03-08T10:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_5",
+        "createdAt": "2026-03-19T11:00:00Z",
+        "updatedAt": "2026-03-08T00:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "534706",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-01T16:00:00Z",
+        "updatedAt": "2026-03-15T20:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-1.webp",
+    "category": "devops",
+    "avgRating": 4.2,
+    "ratingCount": 31,
+    "createdAt": "2026-03-04T17:00:00Z",
+    "updatedAt": "2026-03-12T12:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_16",
+        "createdAt": "2026-03-02T06:00:00Z",
+        "updatedAt": "2026-03-13T18:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "207447",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-04T15:00:00Z",
+        "updatedAt": "2026-03-16T13:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-2.webp",
+    "category": "ai",
+    "avgRating": 4.3,
+    "ratingCount": 4,
+    "createdAt": "2026-03-18T04:00:00Z",
+    "updatedAt": "2026-03-01T21:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_36",
+        "createdAt": "2026-03-16T03:00:00Z",
+        "updatedAt": "2026-03-06T08:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "661327",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-12T16:00:00Z",
+        "updatedAt": "2026-03-25T11:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "AI boosts developer productivity",
+    "description": "Sample generated article description.",
+    "image": "/images/news-3.webp",
+    "category": "devops",
+    "avgRating": 4.9,
+    "ratingCount": 20,
+    "createdAt": "2026-03-01T20:00:00Z",
+    "updatedAt": "2026-03-08T00:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_23",
+        "createdAt": "2026-03-05T20:00:00Z",
+        "updatedAt": "2026-03-15T03:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "844489",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-12T17:00:00Z",
+        "updatedAt": "2026-03-25T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Frontend testing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-4.webp",
+    "category": "frontend",
+    "avgRating": 4.2,
+    "ratingCount": 3,
+    "createdAt": "2026-03-15T08:00:00Z",
+    "updatedAt": "2026-03-12T02:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_35",
+        "createdAt": "2026-03-08T10:00:00Z",
+        "updatedAt": "2026-03-03T23:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "373121",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-24T01:00:00Z",
+        "updatedAt": "2026-03-25T01:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "API security basics",
+    "description": "Sample generated article description.",
+    "image": "/images/news-5.webp",
+    "category": "technology",
+    "avgRating": 4.8,
+    "ratingCount": 28,
+    "createdAt": "2026-03-10T12:00:00Z",
+    "updatedAt": "2026-03-10T00:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_34",
+        "createdAt": "2026-03-26T08:00:00Z",
+        "updatedAt": "2026-03-09T21:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "334407",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-20T23:00:00Z",
+        "updatedAt": "2026-03-17T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-6.webp",
+    "category": "technology",
+    "avgRating": 4.0,
+    "ratingCount": 30,
+    "createdAt": "2026-03-05T18:00:00Z",
+    "updatedAt": "2026-03-26T10:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_35",
+        "createdAt": "2026-03-21T22:00:00Z",
+        "updatedAt": "2026-03-21T06:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "509046",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-17T02:00:00Z",
+        "updatedAt": "2026-03-06T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "CSS architecture patterns",
+    "description": "Sample generated article description.",
+    "image": "/images/news-7.webp",
+    "category": "technology",
+    "avgRating": 5.0,
+    "ratingCount": 16,
+    "createdAt": "2026-03-19T21:00:00Z",
+    "updatedAt": "2026-03-11T17:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_18",
+        "createdAt": "2026-03-07T00:00:00Z",
+        "updatedAt": "2026-03-08T18:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "270068",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-26T12:00:00Z",
+        "updatedAt": "2026-03-25T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Docker workflow improvements",
+    "description": "Sample generated article description.",
+    "image": "/images/news-8.webp",
+    "category": "technology",
+    "avgRating": 4.9,
+    "ratingCount": 33,
+    "createdAt": "2026-03-10T00:00:00Z",
+    "updatedAt": "2026-03-16T00:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_42",
+        "createdAt": "2026-03-03T00:00:00Z",
+        "updatedAt": "2026-03-18T21:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "103851",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-10T16:00:00Z",
+        "updatedAt": "2026-03-04T23:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-9.webp",
+    "category": "frontend",
+    "avgRating": 4.3,
+    "ratingCount": 6,
+    "createdAt": "2026-03-10T17:00:00Z",
+    "updatedAt": "2026-03-12T22:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_26",
+        "createdAt": "2026-03-16T06:00:00Z",
+        "updatedAt": "2026-03-19T14:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "888815",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-10T20:00:00Z",
+        "updatedAt": "2026-03-24T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-10.webp",
+    "category": "backend",
+    "avgRating": 4.1,
+    "ratingCount": 20,
+    "createdAt": "2026-03-14T15:00:00Z",
+    "updatedAt": "2026-03-19T23:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_8",
+        "createdAt": "2026-03-08T01:00:00Z",
+        "updatedAt": "2026-03-14T04:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "990819",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-07T07:00:00Z",
+        "updatedAt": "2026-03-05T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-1.webp",
+    "category": "backend",
+    "avgRating": 4.8,
+    "ratingCount": 20,
+    "createdAt": "2026-03-21T00:00:00Z",
+    "updatedAt": "2026-03-10T17:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_8",
+        "createdAt": "2026-03-20T05:00:00Z",
+        "updatedAt": "2026-03-11T23:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "207504",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-08T02:00:00Z",
+        "updatedAt": "2026-03-24T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-2.webp",
+    "category": "backend",
+    "avgRating": 4.3,
+    "ratingCount": 4,
+    "createdAt": "2026-03-08T13:00:00Z",
+    "updatedAt": "2026-03-14T11:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_12",
+        "createdAt": "2026-03-17T21:00:00Z",
+        "updatedAt": "2026-03-06T02:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "898798",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-02T16:00:00Z",
+        "updatedAt": "2026-03-22T20:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "React optimization guide",
+    "description": "Sample generated article description.",
+    "image": "/images/news-3.webp",
+    "category": "devops",
+    "avgRating": 5.0,
+    "ratingCount": 27,
+    "createdAt": "2026-03-11T00:00:00Z",
+    "updatedAt": "2026-03-25T02:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_44",
+        "createdAt": "2026-03-14T05:00:00Z",
+        "updatedAt": "2026-03-22T01:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "889556",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-01T14:00:00Z",
+        "updatedAt": "2026-03-22T05:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "AI boosts developer productivity",
+    "description": "Sample generated article description.",
+    "image": "/images/news-4.webp",
+    "category": "devops",
+    "avgRating": 4.2,
+    "ratingCount": 37,
+    "createdAt": "2026-03-12T23:00:00Z",
+    "updatedAt": "2026-03-12T21:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_37",
+        "createdAt": "2026-03-06T07:00:00Z",
+        "updatedAt": "2026-03-13T11:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "147666",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-21T12:00:00Z",
+        "updatedAt": "2026-03-11T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Docker workflow improvements",
+    "description": "Sample generated article description.",
+    "image": "/images/news-5.webp",
+    "category": "database",
+    "avgRating": 4.8,
+    "ratingCount": 12,
+    "createdAt": "2026-03-08T22:00:00Z",
+    "updatedAt": "2026-03-02T14:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_15",
+        "createdAt": "2026-03-23T13:00:00Z",
+        "updatedAt": "2026-03-05T02:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "450458",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-03T21:00:00Z",
+        "updatedAt": "2026-03-24T01:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-6.webp",
+    "category": "frontend",
+    "avgRating": 3.9,
+    "ratingCount": 38,
+    "createdAt": "2026-03-10T04:00:00Z",
+    "updatedAt": "2026-03-15T06:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_16",
+        "createdAt": "2026-03-24T04:00:00Z",
+        "updatedAt": "2026-03-03T13:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "355863",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-20T01:00:00Z",
+        "updatedAt": "2026-03-08T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "API security basics",
+    "description": "Sample generated article description.",
+    "image": "/images/news-7.webp",
+    "category": "frontend",
+    "avgRating": 4.5,
+    "ratingCount": 30,
+    "createdAt": "2026-03-18T01:00:00Z",
+    "updatedAt": "2026-03-25T11:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_29",
+        "createdAt": "2026-03-14T23:00:00Z",
+        "updatedAt": "2026-03-03T16:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "286690",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-24T12:00:00Z",
+        "updatedAt": "2026-03-10T22:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "React optimization guide",
+    "description": "Sample generated article description.",
+    "image": "/images/news-8.webp",
+    "category": "programming",
+    "avgRating": 4.8,
+    "ratingCount": 21,
+    "createdAt": "2026-03-11T17:00:00Z",
+    "updatedAt": "2026-03-06T10:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_16",
+        "createdAt": "2026-03-20T04:00:00Z",
+        "updatedAt": "2026-03-22T06:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "133910",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-11T07:00:00Z",
+        "updatedAt": "2026-03-24T22:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-9.webp",
+    "category": "frontend",
+    "avgRating": 4.2,
+    "ratingCount": 9,
+    "createdAt": "2026-03-15T18:00:00Z",
+    "updatedAt": "2026-03-24T00:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_6",
+        "createdAt": "2026-03-15T20:00:00Z",
+        "updatedAt": "2026-03-02T00:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "276946",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-02T22:00:00Z",
+        "updatedAt": "2026-03-16T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "CSS architecture patterns",
+    "description": "Sample generated article description.",
+    "image": "/images/news-10.webp",
+    "category": "backend",
+    "avgRating": 4.5,
+    "ratingCount": 5,
+    "createdAt": "2026-03-08T22:00:00Z",
+    "updatedAt": "2026-03-17T16:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_30",
+        "createdAt": "2026-03-17T09:00:00Z",
+        "updatedAt": "2026-03-20T10:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "183011",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-20T15:00:00Z",
+        "updatedAt": "2026-03-17T05:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-1.webp",
+    "category": "technology",
+    "avgRating": 4.7,
+    "ratingCount": 9,
+    "createdAt": "2026-03-22T22:00:00Z",
+    "updatedAt": "2026-03-14T02:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_5",
+        "createdAt": "2026-03-10T17:00:00Z",
+        "updatedAt": "2026-03-01T11:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "689072",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-01T10:00:00Z",
+        "updatedAt": "2026-03-09T20:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Frontend testing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-2.webp",
+    "category": "database",
+    "avgRating": 4.4,
+    "ratingCount": 30,
+    "createdAt": "2026-03-10T05:00:00Z",
+    "updatedAt": "2026-03-16T06:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_45",
+        "createdAt": "2026-03-06T14:00:00Z",
+        "updatedAt": "2026-03-26T06:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "829147",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-10T13:00:00Z",
+        "updatedAt": "2026-03-13T13:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-3.webp",
+    "category": "ai",
+    "avgRating": 4.7,
+    "ratingCount": 15,
+    "createdAt": "2026-03-11T22:00:00Z",
+    "updatedAt": "2026-03-11T18:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_6",
+        "createdAt": "2026-03-23T23:00:00Z",
+        "updatedAt": "2026-03-13T10:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "598038",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-18T11:00:00Z",
+        "updatedAt": "2026-03-09T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Docker workflow improvements",
+    "description": "Sample generated article description.",
+    "image": "/images/news-4.webp",
+    "category": "backend",
+    "avgRating": 4.4,
+    "ratingCount": 35,
+    "createdAt": "2026-03-07T03:00:00Z",
+    "updatedAt": "2026-03-04T14:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_42",
+        "createdAt": "2026-03-11T00:00:00Z",
+        "updatedAt": "2026-03-16T20:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "469436",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-09T21:00:00Z",
+        "updatedAt": "2026-03-14T13:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-5.webp",
+    "category": "frontend",
+    "avgRating": 4.2,
+    "ratingCount": 6,
+    "createdAt": "2026-03-03T12:00:00Z",
+    "updatedAt": "2026-03-25T09:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_9",
+        "createdAt": "2026-03-11T04:00:00Z",
+        "updatedAt": "2026-03-10T00:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "419043",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-19T09:00:00Z",
+        "updatedAt": "2026-03-20T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-6.webp",
+    "category": "backend",
+    "avgRating": 4.0,
+    "ratingCount": 31,
+    "createdAt": "2026-03-10T23:00:00Z",
+    "updatedAt": "2026-03-21T12:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_30",
+        "createdAt": "2026-03-24T20:00:00Z",
+        "updatedAt": "2026-03-14T04:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "751996",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-09T07:00:00Z",
+        "updatedAt": "2026-03-08T07:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-7.webp",
+    "category": "database",
+    "avgRating": 4.5,
+    "ratingCount": 19,
+    "createdAt": "2026-03-24T15:00:00Z",
+    "updatedAt": "2026-03-08T08:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_42",
+        "createdAt": "2026-03-15T00:00:00Z",
+        "updatedAt": "2026-03-20T17:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "877023",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-09T14:00:00Z",
+        "updatedAt": "2026-03-18T14:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "React optimization guide",
+    "description": "Sample generated article description.",
+    "image": "/images/news-8.webp",
+    "category": "programming",
+    "avgRating": 4.7,
+    "ratingCount": 9,
+    "createdAt": "2026-03-05T07:00:00Z",
+    "updatedAt": "2026-03-04T21:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_7",
+        "createdAt": "2026-03-18T13:00:00Z",
+        "updatedAt": "2026-03-11T04:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "138958",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-06T02:00:00Z",
+        "updatedAt": "2026-03-25T07:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Frontend testing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-9.webp",
+    "category": "programming",
+    "avgRating": 4.6,
+    "ratingCount": 34,
+    "createdAt": "2026-03-20T02:00:00Z",
+    "updatedAt": "2026-03-25T03:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_48",
+        "createdAt": "2026-03-01T08:00:00Z",
+        "updatedAt": "2026-03-19T21:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "771809",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-07T18:00:00Z",
+        "updatedAt": "2026-03-16T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-10.webp",
+    "category": "programming",
+    "avgRating": 3.9,
+    "ratingCount": 23,
+    "createdAt": "2026-03-09T22:00:00Z",
+    "updatedAt": "2026-03-15T15:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_23",
+        "createdAt": "2026-03-23T22:00:00Z",
+        "updatedAt": "2026-03-22T12:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "213489",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-13T01:00:00Z",
+        "updatedAt": "2026-03-22T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-1.webp",
+    "category": "devops",
+    "avgRating": 3.8,
+    "ratingCount": 24,
+    "createdAt": "2026-03-12T20:00:00Z",
+    "updatedAt": "2026-03-13T22:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_34",
+        "createdAt": "2026-03-23T06:00:00Z",
+        "updatedAt": "2026-03-10T18:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "730653",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-08T00:00:00Z",
+        "updatedAt": "2026-03-24T03:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Node.js scaling tips",
+    "description": "Sample generated article description.",
+    "image": "/images/news-2.webp",
+    "category": "backend",
+    "avgRating": 4.6,
+    "ratingCount": 7,
+    "createdAt": "2026-03-04T02:00:00Z",
+    "updatedAt": "2026-03-08T15:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_9",
+        "createdAt": "2026-03-09T19:00:00Z",
+        "updatedAt": "2026-03-19T17:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "716395",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-01T20:00:00Z",
+        "updatedAt": "2026-03-21T22:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "MongoDB indexing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-3.webp",
+    "category": "devops",
+    "avgRating": 3.9,
+    "ratingCount": 34,
+    "createdAt": "2026-03-04T20:00:00Z",
+    "updatedAt": "2026-03-18T10:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_6",
+        "createdAt": "2026-03-18T02:00:00Z",
+        "updatedAt": "2026-03-10T07:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "891040",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-18T05:00:00Z",
+        "updatedAt": "2026-03-17T15:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "React optimization guide",
+    "description": "Sample generated article description.",
+    "image": "/images/news-4.webp",
+    "category": "devops",
+    "avgRating": 4.4,
+    "ratingCount": 9,
+    "createdAt": "2026-03-03T16:00:00Z",
+    "updatedAt": "2026-03-15T10:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_25",
+        "createdAt": "2026-03-23T08:00:00Z",
+        "updatedAt": "2026-03-16T17:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "416518",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-12T21:00:00Z",
+        "updatedAt": "2026-03-17T04:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Docker workflow improvements",
+    "description": "Sample generated article description.",
+    "image": "/images/news-5.webp",
+    "category": "programming",
+    "avgRating": 4.6,
+    "ratingCount": 3,
+    "createdAt": "2026-03-01T07:00:00Z",
+    "updatedAt": "2026-03-15T21:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_34",
+        "createdAt": "2026-03-16T22:00:00Z",
+        "updatedAt": "2026-03-11T15:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "833129",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-26T09:00:00Z",
+        "updatedAt": "2026-03-07T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "GraphQL vs REST comparison",
+    "description": "Sample generated article description.",
+    "image": "/images/news-6.webp",
+    "category": "frontend",
+    "avgRating": 3.9,
+    "ratingCount": 20,
+    "createdAt": "2026-03-02T09:00:00Z",
+    "updatedAt": "2026-03-12T00:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_44",
+        "createdAt": "2026-03-03T18:00:00Z",
+        "updatedAt": "2026-03-03T04:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "383827",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-26T08:00:00Z",
+        "updatedAt": "2026-03-17T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Frontend testing strategies",
+    "description": "Sample generated article description.",
+    "image": "/images/news-7.webp",
+    "category": "database",
+    "avgRating": 3.8,
+    "ratingCount": 4,
+    "createdAt": "2026-03-23T23:00:00Z",
+    "updatedAt": "2026-03-25T08:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_13",
+        "createdAt": "2026-03-21T00:00:00Z",
+        "updatedAt": "2026-03-20T07:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "852269",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-13T04:00:00Z",
+        "updatedAt": "2026-03-02T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Docker workflow improvements",
+    "description": "Sample generated article description.",
+    "image": "/images/news-8.webp",
+    "category": "backend",
+    "avgRating": 4.4,
+    "ratingCount": 4,
+    "createdAt": "2026-03-15T08:00:00Z",
+    "updatedAt": "2026-03-19T20:00:00Z",
+    "reviews": [
+      {
+        "rating": 4,
+        "comment": "Useful content!",
+        "userId": "user_38",
+        "createdAt": "2026-03-01T01:00:00Z",
+        "updatedAt": "2026-03-07T22:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "865599",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-24T14:00:00Z",
+        "updatedAt": "2026-03-15T13:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "Next.js performance tricks",
+    "description": "Sample generated article description.",
+    "image": "/images/news-9.webp",
+    "category": "frontend",
+    "avgRating": 3.8,
+    "ratingCount": 32,
+    "createdAt": "2026-03-25T22:00:00Z",
+    "updatedAt": "2026-03-24T05:00:00Z",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Useful content!",
+        "userId": "user_23",
+        "createdAt": "2026-03-19T02:00:00Z",
+        "updatedAt": "2026-03-18T09:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "706811",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-14T08:00:00Z",
+        "updatedAt": "2026-03-10T09:00:00Z"
+      }
+    ]
+  },
+  {
+    "title": "React optimization guide",
+    "description": "Sample generated article description.",
+    "image": "/images/news-10.webp",
+    "category": "ai",
+    "avgRating": 4.1,
+    "ratingCount": 22,
+    "createdAt": "2026-03-21T06:00:00Z",
+    "updatedAt": "2026-03-01T06:00:00Z",
+    "reviews": [
+      {
+        "rating": 3,
+        "comment": "Useful content!",
+        "userId": "user_27",
+        "createdAt": "2026-03-25T22:00:00Z",
+        "updatedAt": "2026-03-05T19:00:00Z"
+      },
+      {
+        "comment": "Interesting perspective \ud83d\udd25",
+        "platform": "twitter",
+        "externalId": "605190",
+        "authorName": "External Dev",
+        "authorImage": "https://picsum.photos/50",
+        "sourceUrl": "https://twitter.com/example",
+        "createdAt": "2026-03-01T20:00:00Z",
+        "updatedAt": "2026-03-22T14:00:00Z"
+      }
+    ]
+  }
+]

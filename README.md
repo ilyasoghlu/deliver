@@ -153,16 +153,49 @@ npm run dev
                     - it will be an async function 
                     - gets productId as props
         - Post functionality and db elements 
-            - create model in schema file with following values 
-                - id String @id @default(uuid()) @db.Uuid
-                - title String
-                - description String
-                - image String
-                - createdAt     DateTime @default(now())
-                - updatedAt     DateTime @updatedAt
-                - clerkId       String   @default(uuid()) @db.Uuid
-                - category String
-                - rating String  
+            - create models in schema file with following values 
+                - NewsPost model
+                    - id          String   @id @default(uuid()) @db.Uuid
+                    - title       String
+                    - description String
+                    - image       String
+                    - category    String
+                    - avgRating   Float?
+                    - ratingCount Int?
+                    - createdAt   DateTime @default(now())
+                    - updatedAt   DateTime @updatedAt
+                    - clerkId     String?  @db.Uuid // I removed this line from schema model and from seed function because it gives false result and I cant seed the db. For the future check seed file and models they must have the same components, any extra componet can be a new error reason 
+                    - reviews     Review[]
+
+                - Review model
+                    - id        String   @id @default(uuid()) @db.Uuid
+                    - rating    Int?     // optional (Twitter comments usually don't have rating)
+                    - comment   String   @db.Text
+                    // relation to item
+                    - itemId    String   @db.Uuid
+                    - item      Item     @relation(
+                        fields: [itemId],
+                        references: [id],
+                        onDelete: Cascade
+                    )
+
+                    // internal user (Clerk)
+                    - userId    String?  
+
+                    // external platform info
+                    - platform      String?   // "twitter", "facebook", "linkedin"
+                    - externalId    String?   // id of comment on that platform
+                    - authorName    String?   // display name
+                    - authorImage   String?   // avatar URL
+                    - sourceUrl     String?   // link to original comment/post
+
+                    - createdAt DateTime @default(now())
+                    - updatedAt DateTime @updatedAt
+
+
+                    // prevent duplicates from same source
+                    - @@unique([platform, externalId])
+                        
             - create newsPost.json file (here will be more than 100 news items)
             - create category following functionals 
                 - Last Posts
@@ -470,6 +503,9 @@ if (segments[0] === "products" && segments[1]) {
 | Push schema directly | `npx prisma db push`                        | Fast update without migration files  |
 | Update Prisma client | `npx prisma generate`                       | Refreshes types and client           |
 | Open visual editor   | `npx prisma studio`                         | Browse your DB visually              |
+
+
+
 
 
 

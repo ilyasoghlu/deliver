@@ -10,6 +10,8 @@ const mediaItems = JSON.parse(fs.readFileSync("./prisma/blog.json", "utf-8"));
 const ourTeam = JSON.parse(fs.readFileSync("./prisma/ourTeam.json", "utf-8"));
 const serviceBlog = JSON.parse(fs.readFileSync("./prisma/serviceBlog.json", "utf-8"));
 const serviceInfo = JSON.parse(fs.readFileSync("./prisma/serviceInfo.json", "utf-8"));
+const articles = JSON.parse(fs.readFileSync("./prisma/newsPost.json", "utf-8"));
+
 
 async function main() {
   // Flat tables (safe with createMany)
@@ -65,8 +67,27 @@ console.log("DATABASE_URL:", process.env.DATABASE_URL);
         },
       },
     });
-  }
+  };
+
+  for (const article of articles){
+    await prisma.newsPost.create({
+      data:{
+        title:article.title,
+        description:article.description,
+        image:article.image,
+        category:article.category,
+        avgRating:article.avgRating,
+        ratingCount:article.ratingCount,
+        createdAt:article.createdAt,
+        updatedAt:article.updatedAt,
+        reviews:{
+        create:article.reviews ?? [],
+        },
+      },
+    });
+  };
 }
+
 
 main()
   .then(async () => {

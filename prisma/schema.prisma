@@ -101,18 +101,39 @@ model ServiceBlogItem {
   image       String
   description String
 }
+
 model ServiceInfo {
-  id          String @id @default(uuid()) @db.Uuid
-  title       String @unique
-  info        String
+  id    String @id @default(uuid()) @db.Uuid
+  title String @unique
+  info  String
 }
 
 model NewsPost {
-  id String @id @default(uuid()) @db.Uuid
-  title String
+  id          String   @id @default(uuid()) @db.Uuid
+  title       String
   description String
-  image String
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
-  clerkId       String   @default(uuid()) @db.Uuid
+  image       String
+  category    String
+  avgRating   Float?
+  ratingCount Int?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  reviews     Review[]
+}
+
+model Review {
+  id          String   @id @default(uuid()) @db.Uuid
+  rating      Int?
+  comment     String
+  userId      String?
+  platform    String?
+  externalId  String?
+  authorName  String?
+  authorImage String?
+  sourceUrl   String?
+  newsPostId  String   @db.Uuid
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  newsPost    NewsPost @relation(fields: [newsPostId], references: [id])
 }
