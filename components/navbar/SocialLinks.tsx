@@ -6,7 +6,7 @@ function SocialLinks() {
   return (
     <>
       {socialLinks.map((link) => {
-        const { icon, label, href } = link;
+        const {  label, href } = link;
         return (
           <Button
             size="icon"

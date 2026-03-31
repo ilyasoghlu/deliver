@@ -107,3 +107,21 @@ export const fetchAllServiceInfo = async() =>{
             },  
         })
 }
+
+export const fetchLastArticles = async()=>{
+    return await db.newsPost.findMany({
+        orderBy:{
+            createdAt: 'desc',
+
+        },
+            take: 20,
+        
+    })
+}
+
+export const fetchArticelsByCategory = async() =>{
+    return await db.newsPost.groupBy({
+        by: ['category'],
+        
+    })
+}

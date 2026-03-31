@@ -108,13 +108,13 @@ npm run dev
 
 
     - Services
-        - create a model in schema file 
-        - create a mock data in json format 
-        - create a load and functionality in prisma.seed file 
-        - create fetch functionality for fetching of all data and data details in action file 
-        - seed the db 
-        - create service components 
-            - ServiceBlogContainer
+        - create a model in schema file ✅
+        - create a mock data in json format ✅
+        - create a load and functionality in prisma.seed file ✅
+        - create fetch functionality for fetching of all data and data details in action file ✅ 
+        - seed the db ✅
+        - create service components ✅ 
+            - ServiceBlogContainer 
                 - import ServiceBlog component 
                 - it will be async functionality 
                     - convert to variable and export to ServiceBlog component 
@@ -133,9 +133,7 @@ npm run dev
                         - import 
                             - fetchServiceBlogItemDetails function 
                             - Images from next/image
-                            
-                - create a ServiceBlogDetail component (maybe don't need)
-            - ServicePriceCard component 
+            - ServicePriceCard component ✅
                 - it will be a dynamic component - information will be different 
                 - on first step you will map the array as items 
                 - on the second step you will skip already used values and boolean values (if value will be empty it will not appear on the site as empty line)
@@ -143,7 +141,7 @@ npm run dev
 
 
     - Archive
-    - Blog
+    - Blog ✅
         - import 
             - MediaCard component 
         - create a folder [id] - this is a dynamic folder 
@@ -152,9 +150,9 @@ npm run dev
                     - import redirect from next/navigation  (important get it from next/navigation)
                     - it will be an async function 
                     - gets productId as props
-        - Post functionality and db elements 
-            - create models in schema file with following values 
-                - NewsPost model
+        - Post functionality and db elements ✅ 
+            - create models in schema file with following values ✅ 
+                - NewsPost model ✅
                     - id          String   @id @default(uuid()) @db.Uuid
                     - title       String
                     - description String
@@ -167,7 +165,7 @@ npm run dev
                     - clerkId     String?  @db.Uuid // I removed this line from schema model and from seed function because it gives false result and I cant seed the db. For the future check seed file and models they must have the same components, any extra componet can be a new error reason 
                     - reviews     Review[]
 
-                - Review model
+                - Review model ✅
                     - id        String   @id @default(uuid()) @db.Uuid
                     - rating    Int?     // optional (Twitter comments usually don't have rating)
                     - comment   String   @db.Text
@@ -196,11 +194,11 @@ npm run dev
                     // prevent duplicates from same source
                     - @@unique([platform, externalId])
                         
-            - create newsPost.json file (here will be more than 100 news items)
+            - create newsPost.json file (here will be more than 100 news items) ✅
             - create category following components and functionals 
-                - Last Posts 
-                    - create LastPosts component
-                    - create function for get the last 20 news by date
+                - Last Posts ✅
+                    - create LastPosts component ✅
+                    - create function for get the last 20 news by date ✅
                 - Archives by month
                     - create MonthlyPosts
                     - create function for getting news by creating date  

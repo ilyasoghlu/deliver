@@ -1,6 +1,5 @@
 import React from 'react'
-import { fetchFeaturedProducts } from '@/utils/actions'
-import { EmptyList } from '../global'
+
 
 
 async function FeaturedProducts({children}:{children:React.ReactNode}) {

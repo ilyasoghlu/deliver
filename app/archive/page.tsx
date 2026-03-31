@@ -1,10 +1,13 @@
 
 import React from 'react'
 import { Separator } from '@/components/ui/separator';
-import { LastPosts, MonthlyPosts, PopularPosts, PostCategories } from '@/components/blog';
+import ContentContainer from '@/components/blog/ContentContainer';
+
 
 function ArchivePage() {
-    return (
+  
+  
+  return (
       <div>
         <div className="flex flex-col py-10">
           <div className="grid grid-flow-col grid-col-2 gap-14">
@@ -13,9 +16,7 @@ function ArchivePage() {
               <div className="py-8">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo ligula, interdum ut lobortis quis, interdum vitae metus. Proin fringilla metus non nulla cursus, sit amet rutrum est pretium.</p>
               </div>
-                <LastPosts />
-                <MonthlyPosts />
-                <PostCategories />
+                <ContentContainer />
             </div>
 
 
@@ -26,7 +27,7 @@ function ArchivePage() {
                 <h6 className="uppercase font-semibold">About delivery theme</h6>
                 <p className="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo ligula, interdum ut lobortis quis, interdum vitae metus. Proin fringilla metus non nulla cursus, sit amet rutrum est pretium.</p>
               </div>
-              <PopularPosts />
+              {/* <PopularPosts /> */}
               <div className="mt-4">
                 <h6 className="uppercase font-semibold">Flicker widget</h6>
                 <div className='flex flex-wrap gap-2 py-4'>
