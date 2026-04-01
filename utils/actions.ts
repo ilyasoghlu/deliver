@@ -88,6 +88,8 @@ export const fetchAllServiceBlog = async() =>{
         })
 }
 
+
+
 export const fetchServiceBlogItemDetails = async (serviceBlogItemId:string) => {
     const serviceBlogItem = await db.serviceBlogItem.findUnique({
         where: {id: serviceBlogItemId}
@@ -123,5 +125,22 @@ export const fetchArticelsByCategory = async() =>{
     return await db.newsPost.groupBy({
         by: ['category'],
         
+    })
+}
+
+export const fetchArticleDetail = async(articleId:string) =>{
+    const newsPost = await db.newsPost.findUnique({
+        where: {id: articleId}
+    });
+    if (!articleId) {
+        redirect("/archive");  
+    } 
+    return newsPost;
+}
+
+export const fetchArticleFrontend = async() =>{
+    return await db.newsPost.findMany({
+        where:{category:'frontend'},
+        orderBy:{createdAt:'desc'}
     })
 }

@@ -1,4 +1,5 @@
 import { NewsPost } from '@prisma/client';
+import Link from 'next/link';
 import React from 'react'
 import { MdDoubleArrow } from "react-icons/md";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
@@ -8,17 +9,27 @@ function LastPosts({articles}:{articles:NewsPost[]}) {
     return (
         <>
             <h5 className="uppercase font-semibold">Last 20 posts</h5>
-            <ul className="mt-2 p-4">
+            <section className='mt-4 p-4'>
                 {
-                    articles.map((article)=>{
+                    articles.map((article) =>{
                         const {title, id} = article
-                        
                         return(
-                            <li key={id} className='flex items-center gap-2 text-muted-foreground cursor-pointer'><MdOutlineKeyboardArrowRight />{title} </li>
-                        )
-                    })
+                                <>
+                                    <ul key={id}>
+                                        <Link href={`/archive/${id}`}>
+                                            <li 
+                                                className='flex items-center text-muted-foreground'
+                                            ><MdOutlineKeyboardArrowRight/>{title}</li>
+                                        </Link>
+                                    </ul>
+                                </>
+                            )
+                        }
+                    )
                 }
-            </ul>
+            </section>
+            
+        
         </>
     )
 }

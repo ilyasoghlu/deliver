@@ -152,6 +152,7 @@ npm run dev
                     - gets productId as props
         - Post functionality and db elements ✅ 
             - create models in schema file with following values ✅ 
+            - create id page for details page ✅ 
                 - NewsPost model ✅
                     - id          String   @id @default(uuid()) @db.Uuid
                     - title       String
@@ -199,12 +200,170 @@ npm run dev
                 - Last Posts ✅
                     - create LastPosts component ✅
                     - create function for get the last 20 news by date ✅
+                    - create details page ✅ 
+                        - create fetch function for detail page ✅ 
+
                 - Archives by month
                     - create MonthlyPosts
                     - create function for getting news by creating date  
-                - Archive by Category
-                    - create PostCategories
-                    - create function for getting news by category
+                - Archive by Category 
+                    - create PostCategories 
+                    - create function for getting news by category 
+                    - create fetch function for every category
+                        - Frontend
+                        - DataBase
+                        - Backend
+                        - Programming
+                        - Devops
+                        - AI
+                        - Technology
+
+                        Extra tip (useful for your archive system)
+
+                            If later you create category pages like:
+
+                            /category/frontend
+                            /category/backend
+                            /category/devops
+
+                            then dynamic function is better:
+
+                            fetchArticlesByCategory(params.category)
+                            Here is a dynamic category page in Next.js 15 that automatically loads articles based on the URL.
+
+                            Example URLs:
+
+                            /category/frontend
+                            /category/backend
+                            /category/devops
+                            1. Folder structure
+
+                            Create this folder:
+
+                            app
+                            └── category
+                                └── [category]
+                                    └── page.tsx
+
+                            [category] makes the route dynamic.
+
+                            2. Fetch function (already similar to yours)
+
+                            utils/actions.ts
+
+                            export const fetchArticlesByCategory = async (category: string) => {
+                            return await db.newsPost.findMany({
+                                where: {
+                                category: category
+                                },
+                                orderBy: {
+                                createdAt: "desc"
+                                }
+                            })
+                            }
+                            3. Dynamic page
+
+                            app/category/[category]/page.tsx
+
+                            import { fetchArticlesByCategory } from "@/utils/actions"
+
+                            type Props = {
+                            params: {
+                                category: string
+                            }
+                            }
+
+                            export default async function CategoryPage({ params }: Props) {
+                            const articles = await fetchArticlesByCategory(params.category)
+
+                            return (
+                                <div className="max-w-5xl mx-auto py-10">
+
+                                <h1 className="text-3xl font-bold mb-6 capitalize">
+                                    {params.category} articles
+                                </h1>
+
+                                {articles.length === 0 && (
+                                    <p>No articles found.</p>
+                                )}
+
+                                <div className="grid gap-6">
+
+                                    {articles.map(article => (
+                                    <div
+                                        key={article.id}
+                                        className="border rounded-xl p-4 shadow-sm"
+                                    >
+                                        <h2 className="text-xl font-semibold">
+                                        {article.title}
+                                        </h2>
+
+                                        <p className="text-gray-500">
+                                        {article.description}
+                                        </p>
+
+                                        <p className="text-sm mt-2">
+                                        {new Date(article.createdAt).toLocaleDateString()}
+                                        </p>
+                                    </div>
+                                    ))}
+
+                                </div>
+
+                                </div>
+                            )
+                            }
+                            4. Example links
+
+                            Anywhere in your project:
+
+                            import Link from "next/link"
+
+                            <Link href="/category/frontend">
+                            Frontend
+                            </Link>
+
+                            <Link href="/category/backend">
+                            Backend
+                            </Link>
+                            5. Optional – category list automatically from DB
+                            export const fetchCategories = async () => {
+                            return await db.newsPost.groupBy({
+                                by: ["category"]
+                            })
+                            }
+
+                            Then create sidebar:
+
+                            const categories = await fetchCategories()
+
+                            {categories.map(cat => (
+                            <Link
+                                key={cat.category}
+                                href={`/category/${cat.category}`}
+                            >
+                                {cat.category}
+                            </Link>
+                            ))}
+                            Result
+
+                            Dynamic pages generated automatically:
+
+                            /category/frontend → shows frontend posts
+                            /category/backend → shows backend posts
+                            /category/uiux → shows uiux posts
+
+                            If you want, I can also show:
+
+                            dynamic [category]/[slug] article page
+                            SEO friendly slug structure
+                            category page with pagination
+                            category + month archive structure
+                            how to highlight active category in sidebar
+
+
+                            
+
                 - Popular Posts
                     - create PopularPosts
                     - create function for getting news by rating
