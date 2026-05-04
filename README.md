@@ -209,7 +209,7 @@ npm run dev
                 - Archive by Category 
                     - create PostCategories 
                     - create function for getting news by category 
-                    - create fetch function for every category
+                    - create fetch function for categories
                         - Frontend
                         - DataBase
                         - Backend

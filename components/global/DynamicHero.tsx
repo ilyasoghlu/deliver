@@ -18,7 +18,15 @@ function DynamicHero() {
         "/services": "Services",
         "/archive": "Archive",
         };
-        const text = titles[pathname] || 'Page'
+
+    // ✅ Handle dynamic category route
+    if (pathname.startsWith('/category/')) {
+        const category = pathname.split('/')[2] // get dynamic part
+
+        return <PageTitle text={`${category} Blog`}  />
+    }
+
+    const text = titles[pathname] || 'Page'
     if(pathname === '/'){
         return<Hero />
     }

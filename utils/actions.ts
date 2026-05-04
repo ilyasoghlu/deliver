@@ -121,10 +121,17 @@ export const fetchLastArticles = async()=>{
     })
 }
 
-export const fetchArticelsByCategory = async() =>{
+export const fetchCategories = async() =>{
     return await db.newsPost.groupBy({
         by: ['category'],
-        
+    })
+}
+
+export const fetchArticlesCategory = async(category:string) =>{
+    return await db.newsPost.findMany({
+        where:{
+            category:category,
+        },
     })
 }
 
