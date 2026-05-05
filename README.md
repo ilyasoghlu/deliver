@@ -221,10 +221,9 @@ npm run dev
                         Extra tip (useful for your archive system)
 
                             If later you create category pages like:
-
-                            /category/frontend
-                            /category/backend
-                            /category/devops
+                                /category/frontend
+                                /category/backend
+                                /category/devops
 
                             then dynamic function is better:
 
@@ -236,6 +235,7 @@ npm run dev
                             /category/frontend
                             /category/backend
                             /category/devops
+
                             1. Folder structure
 
                             Create this folder:
@@ -247,7 +247,7 @@ npm run dev
 
                             [category] makes the route dynamic.
 
-                            2. Fetch function (already similar to yours)
+                            2. Fetch function 
 
                             utils/actions.ts
 
@@ -261,6 +261,7 @@ npm run dev
                                 }
                             })
                             }
+
                             3. Dynamic page
 
                             app/category/[category]/page.tsx
@@ -313,6 +314,7 @@ npm run dev
                                 </div>
                             )
                             }
+                            
                             4. Example links
 
                             Anywhere in your project:

@@ -127,13 +127,24 @@ export const fetchCategories = async() =>{
     })
 }
 
-export const fetchArticlesCategory = async(category:string) =>{
-    return await db.newsPost.findMany({
-        where:{
-            category:category,
-        },
-    })
-}
+// export const fetchArticlesCategory = async(category:string) =>{
+//     return await db.newsPost.findMany({
+//         where:{
+//             category:category,
+//         },
+//     })
+// }
+
+export const fetchArticlesByCategory = async (category: string) => {
+                            return await db.newsPost.findMany({
+                                where: {
+                                category: category
+                                },
+                                orderBy: {
+                                createdAt: "desc"
+                                }
+                            })
+                            }
 
 export const fetchArticleDetail = async(articleId:string) =>{
     const newsPost = await db.newsPost.findUnique({
