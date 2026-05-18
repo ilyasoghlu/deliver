@@ -355,7 +355,6 @@ npm run dev
                             /category/backend → shows backend posts
                             /category/uiux → shows uiux posts
 
-                            If you want, I can also show:
 
                             dynamic [category]/[slug] article page
                             SEO friendly slug structure
@@ -363,8 +362,35 @@ npm run dev
                             category + month archive structure
                             how to highlight active category in sidebar
 
+                    - created components folder in category folder (It will be optional maybe recreate in global components folder)
+                        - created following components:
+                            - ArticleCard
+                            - CategoryBadge
+                            - Pagination 
+                    - created [category/slug] folder
+                        - it will be async function 
+                        - import fetchArticleDetail function 
+                        - created following pages for slug
+                            - page
+                                - imported:
+                                    - ArticleHeader
+                                    - ArticleContent
+                                    - ArticleSidebar
+                                    - ReleatedPosts
+                            - error page
+                            - loading page
+                            - not-found page
+                        - created components folder in slug folder 
+                            - created following specific components:
+                                -  ArticleContent
+                                - ArticleHeader
+                                - ArticleSidebar (it will be optional)
+                                - ReleatedPosts
 
-                            
+                    - functionality for slug page 
+                        - Import here data for posts 
+                        - It will be dynamic page 
+                        - import data and map it for pages
 
                 - Popular Posts
                     - create PopularPosts
