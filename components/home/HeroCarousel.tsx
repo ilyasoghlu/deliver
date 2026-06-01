@@ -20,7 +20,7 @@ function HeroCarousel() {
     <Carousel
       plugins={[plugin.current]}
       opts={{ loop: true }} 
-      className="w-full"
+      // className="w-full"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
