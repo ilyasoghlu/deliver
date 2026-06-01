@@ -209,7 +209,7 @@ npm run dev
                 - Archive by Category 
                     - create PostCategories 
                     - create function for getting news by category 
-                    - create fetch function for every category
+                    - create fetch function for categories
                         - Frontend
                         - DataBase
                         - Backend
@@ -221,10 +221,9 @@ npm run dev
                         Extra tip (useful for your archive system)
 
                             If later you create category pages like:
-
-                            /category/frontend
-                            /category/backend
-                            /category/devops
+                                /category/frontend
+                                /category/backend
+                                /category/devops
 
                             then dynamic function is better:
 
@@ -236,6 +235,7 @@ npm run dev
                             /category/frontend
                             /category/backend
                             /category/devops
+
                             1. Folder structure
 
                             Create this folder:
@@ -247,7 +247,7 @@ npm run dev
 
                             [category] makes the route dynamic.
 
-                            2. Fetch function (already similar to yours)
+                            2. Fetch function 
 
                             utils/actions.ts
 
@@ -261,6 +261,7 @@ npm run dev
                                 }
                             })
                             }
+
                             3. Dynamic page
 
                             app/category/[category]/page.tsx
@@ -313,6 +314,7 @@ npm run dev
                                 </div>
                             )
                             }
+                            
                             4. Example links
 
                             Anywhere in your project:
@@ -353,7 +355,6 @@ npm run dev
                             /category/backend → shows backend posts
                             /category/uiux → shows uiux posts
 
-                            If you want, I can also show:
 
                             dynamic [category]/[slug] article page
                             SEO friendly slug structure
@@ -361,8 +362,35 @@ npm run dev
                             category + month archive structure
                             how to highlight active category in sidebar
 
+                    - created components folder in category folder (It will be optional maybe recreate in global components folder)
+                        - created following components:
+                            - ArticleCard
+                            - CategoryBadge
+                            - Pagination 
+                    - created [category/slug] folder
+                        - it will be async function 
+                        - import fetchArticleDetail function 
+                        - created following pages for slug
+                            - page
+                                - imported:
+                                    - ArticleHeader
+                                    - ArticleContent
+                                    - ArticleSidebar
+                                    - ReleatedPosts
+                            - error page
+                            - loading page
+                            - not-found page
+                        - created components folder in slug folder 
+                            - created following specific components:
+                                -  ArticleContent
+                                - ArticleHeader
+                                - ArticleSidebar (it will be optional)
+                                - ReleatedPosts
 
-                            
+                    - functionality for slug page 
+                        - Import here data for posts 
+                        - It will be dynamic page 
+                        - import data and map it for pages
 
                 - Popular Posts
                     - create PopularPosts

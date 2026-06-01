@@ -1,4 +1,4 @@
-import { fetchLastArticles, fetchArticelsByCategory } from '@/utils/actions'
+import { fetchLastArticles, fetchCategories } from '@/utils/actions'
 import React from 'react'
 import LastPosts from './LastPosts'
 import PostCategories from './PostCategories'
@@ -7,11 +7,11 @@ import PopularPosts from './PopularPosts'
 
 async function ContentContainer() {
   const articles = await fetchLastArticles()
-  const artcilesCategory = await fetchArticelsByCategory()
+  const categories = await fetchCategories()
   return (
     <>
       <LastPosts articles={articles}/>
-      <PostCategories articlesCategory={artcilesCategory} />
+      <PostCategories categories={categories} />
       <PopularPosts />
     </>
   )
